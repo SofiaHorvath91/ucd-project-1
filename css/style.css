@@ -136,6 +136,14 @@ p {
 /* Resize */
 
 @media screen and (max-width: 1100px) {
+  html, body {
+    height:120vh;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+  
   p {
     font-size: 16px;
   }
@@ -196,16 +204,6 @@ p {
   .gallery-column {
     flex: 50%;
     max-width: 50%;
-  }
-}
-
-@media (max-width: 768px) {
-  html, body {
-    height:120vh;
-  }
-
-  html{
-    overflow-x: hidden;
   }
 }
 
