@@ -142,9 +142,7 @@ p {
 
   .collapsible-section-img img {
     width: 300px;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    height: 100%;
   }
 
   table#museums-table td:nth-child(1),
