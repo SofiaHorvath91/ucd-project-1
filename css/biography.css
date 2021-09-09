@@ -57,14 +57,14 @@
 
 .collapsible-section label:hover,
 .collapsible-section label:focus {
-  text-shadow: var(--hover-shadow);
+  text-shadow: var(--red-shadow);
 }
 
 .collapsible-section
   > input[type='checkbox']:checked
   ~ .collapsible-section-title
   label {
-  text-shadow: var(--hover-shadow);
+  text-shadow: var(--red-shadow);
 }
 
 .collapsible-section-quote {

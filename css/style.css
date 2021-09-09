@@ -16,6 +16,8 @@
   --darkgray: #212529;
   --hover-shadow: 0 0 10px black;
   --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  --red-shadow: 0 0 10px red;
+  --blue-shadow: 0 0 10px blue;
 }
 
 /* Body */
@@ -49,6 +51,14 @@ p {
 
 .hidden {
   display: none !important;
+}
+
+.red-shadow {
+  text-shadow: var(--red-shadow);
+}
+
+.blue-shadow {
+  text-shadow: var(--blue-shadow);
 }
 
 /* Navbar */
@@ -177,6 +187,10 @@ p {
   .background-artgallery {
     background-image: none;
     background-color: white;
+  }
+
+  .index-card-subtitle {
+    text-shadow: var(--red-shadow);
   }
 
   .gallery-column {
