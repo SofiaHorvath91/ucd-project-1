@@ -130,13 +130,21 @@ p {
     font-size: 16px;
   }
 
+  .collapsible-section-quote {
+    margin-bottom: 0;
+  }
+
   .collapsible-section-img {
     flex: 100%;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
   }
 
   .collapsible-section-img img {
     width: 300px;
     height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   table#museums-table td:nth-child(1),

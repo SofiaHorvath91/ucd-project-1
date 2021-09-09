@@ -88,8 +88,11 @@
 .collapsible-section-img img {
   margin: auto;
   width: 100%;
+  height: auto;
   padding: 0;
   align-items: center;
+  object-fit: cover;
+  overflow: hidden;
   border-radius: 1rem;
 }
 
