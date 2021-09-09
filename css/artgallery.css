@@ -62,9 +62,12 @@
   border-radius: 1rem;
 }
 
+.museums-mobile-view {
+  display: none;
+}
+
 .museum-img-copy {
   width: 300px !important;
-  display: none;
   margin: auto;
 }
 

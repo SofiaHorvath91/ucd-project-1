@@ -135,15 +135,17 @@ p {
   }
 
   .collapsible-section-img img {
-    width: 50%;
+    width: 300px;
+    height: auto;
   }
 
-  .museum-img img {
+  table#museums-table td:nth-child(1),
+  table#museums-table td:nth-child(3) {
     display: none;
   }
 
-  table#museums-table td:nth-child(1) {
-    display: none;
+  .museums-mobile-view {
+    display: block;
   }
 
   .museum-img-copy {
@@ -151,25 +153,16 @@ p {
   }
 }
 
-@media screen and (max-width: 900px) {
-  #background-biography {
-    background-image: url('../img/bg-index.png');
-  }
-
-  #background-feedback {
-    background-image: url('../img//bg-index.png');
-  }
-
-  #background-surrealism {
-    background-image: url('../img//bg-index.png');
-  }
-
-  .background-artgallery {
-    background-image: url('../img//bg-index.png');
-  }
-}
-
 @media screen and (max-width: 800px) {
+  #background-index,
+  #background-biography,
+  #background-feedback,
+  #background-surrealism,
+  .background-artgallery {
+    background-image: none;
+    background-color: white;
+  }
+
   .gallery-column {
     flex: 50%;
     max-width: 50%;
