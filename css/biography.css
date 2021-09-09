@@ -1,0 +1,169 @@
+/* Biography */
+
+#background-biography {
+  background-image: url('../img/bg-biography.png');
+}
+
+.round-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.big-round {
+  width: 250px;
+  height: 250px;
+}
+
+/* Collapsible Sections => Source / Inspiration : https://codepen.io/markcaron/pen/RVvmaz */
+
+.collapsible-section {
+  margin-bottom: 1em;
+  max-width: 100%;
+}
+
+.collapsible-section .collapsible-section-title {
+  margin: 0;
+}
+
+.collapsible-section .collapsible-section-content {
+  overflow-y: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+}
+
+.collapsible-section > input[type='checkbox'] {
+  position: absolute;
+  left: -100vw;
+}
+
+.collapsible-section
+  > input[type='checkbox']:checked
+  ~ .collapsible-section-content {
+  height: auto;
+  overflow: visible;
+  padding: 10px;
+  border-top: 0;
+}
+
+.collapsible-section label {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 10px;
+  line-height: 1.2em;
+}
+
+.collapsible-section label:hover,
+.collapsible-section label:focus {
+  text-shadow: var(--hover-shadow);
+}
+
+.collapsible-section
+  > input[type='checkbox']:checked
+  ~ .collapsible-section-title
+  label {
+  text-shadow: var(--hover-shadow);
+}
+
+.collapsible-section-quote {
+  text-align: center;
+  padding: 10px;
+}
+
+.collapsible-section-text {
+  flex: 75%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.collapsible-section-img {
+  flex: 25%;
+  display: flex;
+}
+
+.collapsible-section-img img {
+  margin: auto;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+/* Image Slider => Source / Inspiration : https://css-tricks.com/css-only-carousel/ */
+
+.slider {
+  width: 500px;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  padding: 0;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slide-img-container img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.slides::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.slides::-webkit-scrollbar-thumb,
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 500px;
+  height: 300px;
+  border-radius: 1rem;
+  background: transparent;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--darkgray);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+
+.slider > a:focus {
+  background: black;
+}

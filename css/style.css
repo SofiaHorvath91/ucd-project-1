@@ -1,0 +1,201 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url(index.css);
+@import url(biography.css);
+@import url(artgallery.css);
+@import url(surrealism.css);
+@import url(feedback.css);
+
+* {
+  box-sizing: border-box;
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+:root {
+  --darkgray: #212529;
+  --hover-shadow: 0 0 10px black;
+  --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Body */
+
+body {
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  font-size: 18px;
+}
+
+.background {
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container-row {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* Navbar */
+
+.navbar,
+.navbar-container {
+  width: 100%;
+}
+
+.bg-dark {
+  background-color: transparent !important;
+}
+
+.navbar li a {
+  color: var(--darkgray) !important;
+  font-size: 20px;
+  margin: 20px 10px 0px 10px;
+}
+
+.navbar li a:hover {
+  color: black !important;
+  text-shadow: var(--hover-shadow);
+}
+
+.navbar-toggler {
+  margin: 10px 10px 0px 0px;
+  background-color: var(--darkgray) !important;
+  float: right;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+  float: left;
+  position: relative;
+  margin: 5px 15px 0px 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.dropdown-item,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  box-shadow: 0 0 10px white, inset 0 0 10px var(--darkgray);
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--darkgray);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  height: auto;
+  display: flex;
+}
+
+.footer p {
+  font-size: 12px !important;
+  color: white;
+  text-align: center;
+  margin: auto;
+  margin: auto;
+}
+
+.footer p a {
+  color: white !important;
+}
+
+/* Resize */
+
+@media screen and (max-width: 1100px) {
+  p {
+    font-size: 16px;
+  }
+
+  .collapsible-section-img {
+    flex: 100%;
+  }
+
+  .collapsible-section-img img {
+    width: 50%;
+  }
+
+  .museum-img img {
+    display: none;
+  }
+
+  table#museums-table td:nth-child(1) {
+    display: none;
+  }
+
+  .museum-img-copy {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #background-biography {
+    background-image: url('../img/bg-index.png');
+  }
+
+  #background-feedback {
+    background-image: url('../img//bg-index.png');
+  }
+
+  #background-surrealism {
+    background-image: url('../img//bg-index.png');
+  }
+
+  .background-artgallery {
+    background-image: url('../img//bg-index.png');
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #index-title-image {
+    width: 300px;
+  }
+
+  .slider {
+    width: 300px;
+  }
+
+  .slides > div {
+    width: 300px;
+    height: 200px;
+  }
+
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .video-window {
+    width: 300px;
+  }
+}

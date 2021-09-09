@@ -1,0 +1,29 @@
+/* Index */
+
+#background-index {
+  background-image: url('../img/bg-index.png');
+}
+
+.center-container {
+  margin: auto;
+  display: flex;
+  width: auto;
+  padding: 10px 0px 10px 0px;
+  align-items: center;
+  text-align: center;
+}
+
+#index-title-image {
+  width: 500px;
+  height: auto;
+}
+
+.index-card {
+  width: 300px;
+  border: none;
+}
+
+.index-img,
+.artists-img {
+  margin-top: 0.5rem;
+}

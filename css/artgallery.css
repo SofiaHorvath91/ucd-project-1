@@ -1,0 +1,101 @@
+.background-artgallery {
+  background-image: url('../img/bg-artgallery.png');
+}
+
+/* Gallery => Source/Inspiration for Responsive Image Grid : https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+
+.video-window {
+  width: 500px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Museums */
+
+.table {
+  border: transparent !important;
+}
+
+.table td {
+  vertical-align: middle !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.table td span {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.table th {
+  vertical-align: middle !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.museum-img-div {
+  width: 300px;
+  height: auto;
+}
+
+.museum-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.museum-img-copy {
+  width: 300px !important;
+  display: none;
+  margin: auto;
+}
+
+.ext-link-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.museum-location {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.museum-location img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 5px black, inset 0 0 5px white;
+}
+
+/*Other Works => Source/Inspiration for Book Cards : https://www.w3schools.com/howto/howto_css_team.asp */
+
+.book-card,
+.artists-card {
+  width: 300px;
+  box-shadow: var(--card-shadow);
+}
+
+.book-card img {
+  height: 400px;
+}

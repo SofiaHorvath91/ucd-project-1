@@ -1,0 +1,28 @@
+/* Surrealism => Source/Inspiration for Artist Cards : https://www.w3schools.com/howto/howto_css_team.asp */
+
+#background-surrealism {
+  background-image: url('../img/bg-surrealism.png');
+}
+
+.small-round {
+  width: 180px;
+  height: 180px;
+}
+
+/* Circle Rotation => Source / Inspiration : https://dev.to/benjithorpe/rotate-a-circle-with-css-1dp6 */
+
+#surrealism-img-rotate {
+  animation-name: rotate;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
