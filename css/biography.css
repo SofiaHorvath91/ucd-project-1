@@ -82,6 +82,7 @@
 .collapsible-section-img {
   flex: 25%;
   display: flex;
+  height: auto;
   margin-bottom: 0.5rem;
 }
 
