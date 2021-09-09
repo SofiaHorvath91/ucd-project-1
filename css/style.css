@@ -130,10 +130,12 @@ p {
     font-size: 16px;
   }
 
+  .collapsible-section-img,
   .collapsible-section-quote {
     margin-bottom: 0;
   }
 
+  .collapsible-section-img,
   .collapsible-section-text {
     margin-top: 0;
   }
