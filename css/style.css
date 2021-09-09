@@ -199,6 +199,16 @@ p {
   }
 }
 
+@media (max-width: 768px) {
+  html, body {
+    height:120vh;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+}
+
 @media screen and (max-width: 600px) {
   #index-title-image {
     width: 300px;
