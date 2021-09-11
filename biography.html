@@ -1,63 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Life | Dalí's Surreal Dreams</title>
+  <title>Life | Dalí's Surreal Dreams</title>
 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="row container-row background" id="background-biography">
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="navbar-container">
-          <div class="navbar-logo">
-              <a href="index.html">
-                  <img class="logo-img" src="img/dali_logo.png" title="Home">
+        <div class="navbar-logo">
+          <a href="index.html">
+            <img class="logo-img" src="img/dali_logo.png" title="Home">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="biography.html">Biography</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Art Gallery
               </a>
-          </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="biography.html">Biography</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Art Gallery
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="gallery.html">Gallery</a>
-                      <a class="dropdown-item" href="museums.html">Museums</a>
-                      <a class="dropdown-item" href="others.html">Other Works</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="surrealism.html">Surrealism</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="feedback.html">Feedback</a>
-                </li>
-              </ul>
-          </div>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="gallery.html">Gallery</a>
+                <a class="dropdown-item" href="museums.html">Museums</a>
+                <a class="dropdown-item" href="others.html">Other Works</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="surrealism.html">Surrealism</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <h1 class="center-text mt-2">"I am not strange. I am just not normal."</h1>
@@ -66,8 +73,8 @@
   <main>
     <section class="row container-row mt-3">
       <div class="center-container">
-          <img class="round-image big-round" src="img/biography/dali-by-willy-rizzo-1950s.jpg" alt="Dalí by Willy Rizzo (1950s)" 
-          title="Dalí by Willy Rizzo (1950s)">
+        <img class="round-image big-round" src="img/biography/dali-by-willy-rizzo-1950s.jpg"
+          alt="Dalí by Willy Rizzo (1950s)" title="Dalí by Willy Rizzo (1950s)">
       </div>
     </section>
     <section class="row container-row mb-4">
@@ -77,8 +84,9 @@
           Your browser does not support the audio element.
         </audio>
       </div>
-      <span class="center-text">Dalí about genius, personality, the subconscious and dreams 
-        (Part of <a href="https://www.soundboard.com/sb/Salvador_Dali_Interview">Wallace Interview</a>, 1958)
+      <span class="center-text">Dalí about genius, personality, the subconscious and dreams
+        (Part of <a href="https://www.soundboard.com/sb/Salvador_Dali_Interview" target=" _blank"
+          rel="noopener noreferrer">Wallace Interview</a>, 1958)
 
       </span>
     </section>
@@ -90,282 +98,380 @@
       <article class="collapsible-section-content">
         <header>
           <h4 class="collapsible-section-quote">
-              "At the age of six I wanted to be a cook. At seven I wanted to be Napoleon. <br>And my ambition has been growing steadily ever since."
+            "At the age of six I wanted to be a cook. At seven I wanted to be Napoleon. <br>And my ambition has been
+            growing steadily ever since."
           </h4>
         </header>
-          <section class="row container-row">
-              <div class="collapsible-section-img">
-                  <img src="img/biography/dali-family-1910.jpg" alt="The Dalí family in 1910 (Dalí in the middle)" 
-                  title="The Dalí family in 1910 (Dalí in the middle)"/>
-              </div>
-              <div class="collapsible-section-text">
-                  <p>
-                  Salvador Dalí was a prominent Spanish surrealist painter born in Figueres, Catalonia, on 11 May 1904,
-                  to a prosperous middle-class family.  Dali's father was strict in the education of his children unlike the mother,
-                  but they both greatly nurtured his early interest in art. 
-                  Dali had a brother named Salvador who was born nine months before him and died of gastroenteritis. 
-                  When he was five, Dalí was taken to his brother's grave and was told that he was his brother's reincarnation 
-                  - an idea that surely planted various ideas in the impressionable child.
-                  </p>
-                  <p>
-                  At an early age, Salvador Dali's parents encouraged him to produce highly sophisticated drawings and was sent 
-                  to drawing school in Figueres, Spain, in 1916. In February 1921, Dalí's mother died of breast cancer. 
-                  Dalí was 16 years old; he later said his mother's death was the greatest blow he had experienced in his life. 
-                  After her death, Dalí's father married his deceased wife's sister. 
-                  Dalí did not resent this marriage, because he had a great love and respect for his aunt.
-                  </p>
-              </div>
-          </section>
-          <footer class="slider">
-              <a href="#section1-slide-1" title="Vilabertrin (1913)"></a>
-              <a href="#section1-slide-2" title="Landscape Near Ampurdan (1914)"></a>
-              <a href="#section1-slide-3" title="Landscape (1916)"></a>
-              <a href="#section1-slide-4" title="Cadaques (1917)"></a>
-              <a href="#section1-slide-5" title="Port of Cadaques, Night (1918)"></a>
-              <div class="slides">
-                <div class="slide-img-container" id="section1-slide-1">
-                  <img src="img/artgallery/vilabertrin.jpg" 
-                  alt="Vilabertrin (1913)" title="Vilabertrin (1913)"/>
-                </div>
-                <div class="slide-img-container" id="section1-slide-2">
-                  <img src="img/artgallery/landscape-near-ampurdan-2.jpg" 
-                  alt="Landscape Near Ampurdan (1914)" title="Landscape Near Ampurdan (1914)"/>
-                </div>
-                <div class="slide-img-container" id="section1-slide-3">
-                  <img src="img/artgallery/landscape-2.jpg" 
-                  alt="Landscape (1916)" title="Landscape (1916)"/>
-                </div>
-                <div class="slide-img-container" id="section1-slide-4">
-                  <img src="img/artgallery/cadaques-2.jpg" 
-                  alt="Cadaques (1917)" title="Cadaques (1917)"/>
-                </div>
-                <div class="slide-img-container" id="section1-slide-5">
-                  <img src="img/artgallery/port-of-cadaques-night.jpg" 
-                  alt="Port of Cadaques, Night (1918)" title="Port of Cadaques, Night (1918)"/>
-                </div>
-              </div>
-          </footer>
+        <section class="row container-row">
+          <div class="collapsible-section-img">
+            <img src="img/biography/dali-family-1910.jpg" alt="The Dalí family in 1910 (Dalí in the middle)"
+              title="The Dalí family in 1910 (Dalí in the middle)" />
+          </div>
+          <div class="collapsible-section-text">
+            <p>
+              Salvador Dalí was a prominent Spanish surrealist painter born in Figueres, Catalonia, on 11 May 1904,
+              to a prosperous middle-class family. Dali's father was strict in the education of his children unlike the
+              mother,
+              but they both greatly nurtured his early interest in art.
+              Dali had a brother named Salvador who was born nine months before him and died of gastroenteritis.
+              When he was five, Dalí was taken to his brother's grave and was told that he was his brother's
+              reincarnation
+              - an idea that surely planted various ideas in the impressionable child.
+            </p>
+            <p>
+              At an early age, Salvador Dali's parents encouraged him to produce highly sophisticated drawings and was
+              sent
+              to drawing school in Figueres, Spain, in 1916. In February 1921, Dalí's mother died of breast cancer.
+              Dalí was 16 years old; he later said his mother's death was the greatest blow he had experienced in his
+              life.
+              After her death, Dalí's father married his deceased wife's sister.
+              Dalí did not resent this marriage, because he had a great love and respect for his aunt.
+            </p>
+          </div>
+        </section>
+        <footer class="slider">
+          <a href="#section1-slide-1" title="Vilabertrin (1913)"></a>
+          <a href="#section1-slide-2" title="Landscape Near Ampurdan (1914)"></a>
+          <a href="#section1-slide-3" title="Landscape (1916)"></a>
+          <a href="#section1-slide-4" title="Cadaques (1917)"></a>
+          <a href="#section1-slide-5" title="Port of Cadaques, Night (1918)"></a>
+          <div class="slides">
+            <div class="slide-img-container" id="section1-slide-1">
+              <img src="img/artgallery/vilabertrin.jpg" alt="Vilabertrin (1913)" title="Vilabertrin (1913)" />
+            </div>
+            <div class="slide-img-container" id="section1-slide-2">
+              <img src="img/artgallery/landscape-near-ampurdan-2.jpg" alt="Landscape Near Ampurdan (1914)"
+                title="Landscape Near Ampurdan (1914)" />
+            </div>
+            <div class="slide-img-container" id="section1-slide-3">
+              <img src="img/artgallery/landscape-2.jpg" alt="Landscape (1916)" title="Landscape (1916)" />
+            </div>
+            <div class="slide-img-container" id="section1-slide-4">
+              <img src="img/artgallery/cadaques-2.jpg" alt="Cadaques (1917)" title="Cadaques (1917)" />
+            </div>
+            <div class="slide-img-container" id="section1-slide-5">
+              <img src="img/artgallery/port-of-cadaques-night.jpg" alt="Port of Cadaques, Night (1918)"
+                title="Port of Cadaques, Night (1918)" />
+            </div>
+          </div>
+        </footer>
       </article>
     </section>
     <section class="collapsible-section">
-        <input type="checkbox" name="collapse" id="second-coll-section">
-        <div class="collapsible-section-title">
-          <label for="second-coll-section">THE FIRST DAYS OF SPRING</label>
-        </div>
-        <article class="collapsible-section-content">
-          <header>
-            <h4 class="collapsible-section-quote">
-                "A true artist is not one who is inspired, but one who inspires others."
-            </h4>
-          </header>
-          <section class="row container-row">
-              <div class="collapsible-section-img">
-                  <img src="img/biography/dali-and-lorca-barcelona-1925.jpg" alt="Dalí with Federico García Lorca, 1925" 
-                  title="Dalí with Federico García Lorca, 1925"/>
-              </div>
-              <div class="collapsible-section-text">
-                  <p>
-                  In 1922, Dalí moved to Madrid and studied at the Real Academia de Bellas Artes de San Fernando where he already drew attention as 
-                  an eccentric and dandy. He fell in with, and became close to, a group of leading artistic personalities that included filmmaker 
-                  Luis Buñuel and poet Federico García Lorca, who exposed him to the most important minds of the time such as Le Corbusier, Einstein, 
-                  Calder and Stravinsky. He was influenced by several different artistic styles, including Metaphysics and Cubism. 
-                  Dalí was expelled from the Academy in 1926, shortly before his final exams when he was accused of starting an unrest.
-                  </p>
-                  <p>
-                  Later, Dali visited Paris where he met Pablo Picasso whom he revered. He began studying the psychoanalytic concepts of Freud as well 
-                  as metaphysical painters like Giorgio de Chirico and Surrealists like Joan Miró, and consequently began using psychoanalytic methods 
-                  of mining the subconscious to generate imagery. As he developed his own style over the next few years, Dalí made a number of 
-                  works heavily influenced by Picasso and Miró.
-                  </p>
-              </div>
-          </section>
-          <footer class="slider">
-              <a href="#section2-slide-1" title="Landscape of Cadaques (1923)"></a>
-              <a href="#section2-slide-2" title="Still Life with Moonight (1925)"></a>
-              <a href="#section2-slide-3" title="Figure on the Rocks (1926)"></a>
-              <a href="#section2-slide-4" title="Female Bather (1928)"></a>
-              <a href="#section2-slide-5" title="The Spectral Cow (1928)"></a>
-              <div class="slides">
-                <div class="slide-img-container" id="section2-slide-1">
-                  <img src="img/artgallery/landscape-of-cadaques.jpg" 
-                  alt="Landscape of Cadaques (1923)" title="Landscape of Cadaques (1923)"/>
-                </div>
-                <div class="slide-img-container" id="section2-slide-2">
-                  <img src="img/artgallery/still-life-with-moonight.jpg" 
-                  alt="Still Life with Moonight (1925)" title="Still Life with Moonight (1925)"/>
-                </div>
-                <div class="slide-img-container" id="section2-slide-3">
-                  <img src="img/artgallery/figure-on-the-rocks.jpg" 
-                  alt="Figure on the Rocks (1926)" title="Figure on the Rocks (1926)"/>
-                </div>
-                <div class="slide-img-container" id="section2-slide-4">
-                  <img src="img/artgallery/female-bather.jpg" 
-                  alt="Female Bather (1928)" title="Female Bather (1928)"/>
-                </div>
-                <div class="slide-img-container" id="section2-slide-5">
-                  <img src="img/artgallery/the-spectral-cow.jpg" 
-                  alt="The Spectral Cow (1928)" title="The Spectral Cow (1928)"/>
-                </div>
-              </div>
-          </footer>
-        </article>
+      <input type="checkbox" name="collapse" id="second-coll-section">
+      <div class="collapsible-section-title">
+        <label for="second-coll-section">THE FIRST DAYS OF SPRING</label>
+      </div>
+      <article class="collapsible-section-content">
+        <header>
+          <h4 class="collapsible-section-quote">
+            "A true artist is not one who is inspired, but one who inspires others."
+          </h4>
+        </header>
+        <section class="row container-row">
+          <div class="collapsible-section-img">
+            <img src="img/biography/dali-and-lorca-barcelona-1925.jpg" alt="Dalí with Federico García Lorca, 1925"
+              title="Dalí with Federico García Lorca, 1925" />
+          </div>
+          <div class="collapsible-section-text">
+            <p>
+              In 1922, Dalí moved to Madrid and studied at the Real Academia de Bellas Artes de San Fernando where he
+              already drew attention as
+              an eccentric and dandy. He fell in with, and became close to, a group of leading artistic personalities
+              that included filmmaker
+              Luis Buñuel and poet Federico García Lorca, who exposed him to the most important minds of the time such
+              as Le Corbusier, Einstein,
+              Calder and Stravinsky. He was influenced by several different artistic styles, including Metaphysics and
+              Cubism.
+              Dalí was expelled from the Academy in 1926, shortly before his final exams when he was accused of starting
+              an unrest.
+            </p>
+            <p>
+              Later, Dali visited Paris where he met Pablo Picasso whom he revered. He began studying the psychoanalytic
+              concepts of Freud as well
+              as metaphysical painters like Giorgio de Chirico and Surrealists like Joan Miró, and consequently began
+              using psychoanalytic methods
+              of mining the subconscious to generate imagery. As he developed his own style over the next few years,
+              Dalí made a number of
+              works heavily influenced by Picasso and Miró.
+            </p>
+          </div>
+        </section>
+        <footer class="slider">
+          <a href="#section2-slide-1" title="Landscape of Cadaques (1923)"></a>
+          <a href="#section2-slide-2" title="Still Life with Moonight (1925)"></a>
+          <a href="#section2-slide-3" title="Figure on the Rocks (1926)"></a>
+          <a href="#section2-slide-4" title="Female Bather (1928)"></a>
+          <a href="#section2-slide-5" title="The Spectral Cow (1928)"></a>
+          <div class="slides">
+            <div class="slide-img-container" id="section2-slide-1">
+              <img src="img/artgallery/landscape-of-cadaques.jpg" alt="Landscape of Cadaques (1923)"
+                title="Landscape of Cadaques (1923)" />
+            </div>
+            <div class="slide-img-container" id="section2-slide-2">
+              <img src="img/artgallery/still-life-with-moonight.jpg" alt="Still Life with Moonight (1925)"
+                title="Still Life with Moonight (1925)" />
+            </div>
+            <div class="slide-img-container" id="section2-slide-3">
+              <img src="img/artgallery/figure-on-the-rocks.jpg" alt="Figure on the Rocks (1926)"
+                title="Figure on the Rocks (1926)" />
+            </div>
+            <div class="slide-img-container" id="section2-slide-4">
+              <img src="img/artgallery/female-bather.jpg" alt="Female Bather (1928)" title="Female Bather (1928)" />
+            </div>
+            <div class="slide-img-container" id="section2-slide-5">
+              <img src="img/artgallery/the-spectral-cow.jpg" alt="The Spectral Cow (1928)"
+                title="The Spectral Cow (1928)" />
+            </div>
+          </div>
+        </footer>
+      </article>
     </section>
     <section class="collapsible-section">
-        <input type="checkbox" name="collapse" id="third-coll-section">
-        <div class="collapsible-section-title">
-          <label for="third-coll-section">THE PERSISTENCE OF MEMORY</label>
-        </div>
-        <article class="collapsible-section-content">
-          <header>
-            <h4 class="collapsible-section-quote">
-                "Every morning when I wake up, I experience an exquisite joy — the joy of being Salvador Dalí.."
-            </h4>
-          </header>
-          <section class="row container-row">
-              <div class="collapsible-section-img">
-                  <img src="img/biography/dali-with-ocelot-by-roger-higgins-1965.jpg" alt="Dalí with his pet ocelot Babou by Roger Higgins, 1965" 
-                  title="Dalí with his pet ocelot Babou by Roger Higgins, 1965"/>
-              </div>
-              <div class="collapsible-section-text">
-                  <p>
-                  In 1928, Dalí partnered with the filmmaker Luis Buñuel on Un Chien Andalou (An Andalusian Dog). The film's subject matter was so shocking 
-                  that Dalí became infamous, causing quite a stir with the Parisian Surrealists who considered recruiting Dalí into their 
-                  circle. In 1929, they sent Paul Eluard and his wife Gala to visit Dalí in Cadaques. This was the first time Dalí and Gala would meet and 
-                  shortly after she divorced from Eluard. Gala, born in Russia, became Dalí's lifelong, constant, and most important muse, as well as 
-                  being his future wife, his greatest passion, and his business manager. 
-                  They married in 1934 and since their death, they lived in France, USA and Spain.
-                  </p>
-                  <p>
-                  Dalí adapted André Breton's theory of automatism, in which an artist stifles conscious control over the creative process by allowing the 
-                  unconscious mind to guide the work. Yet in the early 1930s, Dalí took this concept further by creating his own 
-                  Paranoic Critical Method, in which an artist could tap into their subconscious through a self-induced paranoid state.
-                  </p>
-                  <p>
-                  For the next several years, Dalí's paintings were very illustrative of his theories about the psychological state of paranoia. 
-                  Many of Dalí's most famous paintings are from this highly creative period. Also, being a skilled draftsman, Dalí's artistic repertoire 
-                  also included film, sculpture, and photography, in collaboration with a wide range of artists.
-                  </p>
-                  <p>
-                  Dalí was incredibly imaginative, and also enjoyed indulging in unusual and grandiose behavior. His eccentric manner and attention-grabbing 
-                  public actions sometimes drew more attention than his artwork, to the dismay of those who held his work in high esteem, and to the irritation 
-                  of his critics.
-                  </p>
-              </div>
-          </section>
-          <footer class="slider">
-              <a href="#section3-slide-1" title="The Great Masturbator (1929)"></a>
-              <a href="#section3-slide-2" title="The Persistence of Memory (1931)"></a>
-              <a href="#section3-slide-3" title="Sleep (1937)"></a>
-              <a href="#section3-slide-4" title="The Temptation of St. Anthony (1946)"></a>
-              <a href="#section3-slide-5" title="Melting Watch (1954)"></a>
-              <div class="slides">
-                <div class="slide-img-container" id="section3-slide-1">
-                  <img src="img/artgallery/the-great-masturbator.jpg" 
-                  alt="The Great Masturbator (1929)" title="The Great Masturbator (1929)"/>
-                </div>
-                <div class="slide-img-container" id="section3-slide-2">
-                  <img src="img/artgallery/the-persistence-of-memory.jpg" 
-                  alt="The Persistence of Memory (1931)" title="The Persistence of Memory (1931)"/>
-                </div>
-                <div class="slide-img-container" id="section3-slide-3">
-                  <img src="img/artgallery/sleep.jpg" 
-                  alt="Sleep (1937)" title="Sleep (1937)"/>
-                </div>
-                <div class="slide-img-container" id="section3-slide-4">
-                  <img src="img/artgallery/the-temptation-of-st-anthony.jpg" 
-                  alt="The Temptation of St. Anthony (1946)" title="The Temptation of St. Anthony (1946)"/>
-                </div>
-                <div class="slide-img-container" id="section3-slide-5">
-                  <img src="img/artgallery/melting-watch.jpg" 
-                  alt="Melting Watch (1954)" title="Melting Watch (1954)"/>
-                </div>
-              </div>
-          </footer>
-        </article>
+      <input type="checkbox" name="collapse" id="third-coll-section">
+      <div class="collapsible-section-title">
+        <label for="third-coll-section">THE PERSISTENCE OF MEMORY</label>
+      </div>
+      <article class="collapsible-section-content">
+        <header>
+          <h4 class="collapsible-section-quote">
+            "Every morning when I wake up, I experience an exquisite joy — the joy of being Salvador Dalí.."
+          </h4>
+        </header>
+        <section class="row container-row">
+          <div class="collapsible-section-img">
+            <img src="img/biography/dali-with-ocelot-by-roger-higgins-1965.jpg"
+              alt="Dalí with his pet ocelot Babou by Roger Higgins, 1965"
+              title="Dalí with his pet ocelot Babou by Roger Higgins, 1965" />
+          </div>
+          <div class="collapsible-section-text">
+            <p>
+              In 1928, Dalí partnered with the filmmaker Luis Buñuel on Un Chien Andalou (An Andalusian Dog). The film's
+              subject matter was so shocking
+              that Dalí became infamous, causing quite a stir with the Parisian Surrealists who considered recruiting
+              Dalí into their
+              circle. In 1929, they sent Paul Eluard and his wife Gala to visit Dalí in Cadaques. This was the first
+              time Dalí and Gala would meet and
+              shortly after she divorced from Eluard. Gala, born in Russia, became Dalí's lifelong, constant, and most
+              important muse, as well as
+              being his future wife, his greatest passion, and his business manager.
+              They married in 1934 and since their death, they lived in France, USA and Spain.
+            </p>
+            <p>
+              Dalí adapted André Breton's theory of automatism, in which an artist stifles conscious control over the
+              creative process by allowing the
+              unconscious mind to guide the work. Yet in the early 1930s, Dalí took this concept further by creating his
+              own
+              Paranoic Critical Method, in which an artist could tap into their subconscious through a self-induced
+              paranoid state.
+            </p>
+            <p>
+              For the next several years, Dalí's paintings were very illustrative of his theories about the
+              psychological state of paranoia.
+              Many of Dalí's most famous paintings are from this highly creative period. Also, being a skilled
+              draftsman, Dalí's artistic repertoire
+              also included film, sculpture, and photography, in collaboration with a wide range of artists.
+            </p>
+            <p>
+              Dalí was incredibly imaginative, and also enjoyed indulging in unusual and grandiose behavior. His
+              eccentric manner and attention-grabbing
+              public actions sometimes drew more attention than his artwork, to the dismay of those who held his work in
+              high esteem, and to the irritation
+              of his critics.
+            </p>
+          </div>
+        </section>
+        <footer class="slider">
+          <a href="#section3-slide-1" title="The Great Masturbator (1929)"></a>
+          <a href="#section3-slide-2" title="The Persistence of Memory (1931)"></a>
+          <a href="#section3-slide-3" title="Sleep (1937)"></a>
+          <a href="#section3-slide-4" title="The Temptation of St. Anthony (1946)"></a>
+          <a href="#section3-slide-5" title="Melting Watch (1954)"></a>
+          <div class="slides">
+            <div class="slide-img-container" id="section3-slide-1">
+              <img src="img/artgallery/the-great-masturbator.jpg" alt="The Great Masturbator (1929)"
+                title="The Great Masturbator (1929)" />
+            </div>
+            <div class="slide-img-container" id="section3-slide-2">
+              <img src="img/artgallery/the-persistence-of-memory.jpg" alt="The Persistence of Memory (1931)"
+                title="The Persistence of Memory (1931)" />
+            </div>
+            <div class="slide-img-container" id="section3-slide-3">
+              <img src="img/artgallery/sleep.jpg" alt="Sleep (1937)" title="Sleep (1937)" />
+            </div>
+            <div class="slide-img-container" id="section3-slide-4">
+              <img src="img/artgallery/the-temptation-of-st-anthony.jpg" alt="The Temptation of St. Anthony (1946)"
+                title="The Temptation of St. Anthony (1946)" />
+            </div>
+            <div class="slide-img-container" id="section3-slide-5">
+              <img src="img/artgallery/melting-watch.jpg" alt="Melting Watch (1954)" title="Melting Watch (1954)" />
+            </div>
+          </div>
+        </footer>
+      </article>
     </section>
     <section class="collapsible-section">
-        <input type="checkbox" name="collapse" id="fourth-coll-section">
-        <div class="collapsible-section-title">
-          <label for="fourth-coll-section">THE HARMONY OF THE SPHERES</label>
-        </div>
-        <article class="collapsible-section-content">
-          <header>
-            <h4 class="collapsible-section-quote">
-                "Everything alters me, but nothing changes me."
-            </h4>
-          </header>
-          <section class="row container-row">
-              <div class="collapsible-section-img">
-                  <img src="img/biography/dali-en-espagne-by-manuel-litran-1981.png" alt="Dalí in Spain by Manuel Litran, 1981" 
-                  title="Dalí in Spain by Manuel Litran, 1981"/>
-              </div>
-              <div class="collapsible-section-text">
-                  <p>
-                  The last two decades of Dalí's life would be the most difficult and psychologically arduous, bit it was in 1980, at age 76, that Dalí's 
-                  health took a catastrophic turn. His right hand trembled terribly, with Parkinson-like symptoms. 
-                  His near-senile wife allegedly had been dosing him with a dangerous cocktail of unprescribed medicine that damaged his nervous system, 
-                  thus causing an untimely end to his artistic capacity. Yet, he did not waste his time : one of his most important achievements during 
-                  this rough time was the creation of The Dalí Theatre-Museum in Figueres.
-                  </p>
-                  <p>
-                  His wife Gala died on 10 June 1982, at the age of 87. After her death in 1982, Dalí experienced a further bout of depression 
-                  and is believed to have attempted suicide. On the morning of 23 January 1989, while his favorite record of Tristan and Isolde played, 
-                  Dalí died of heart failure at Figueres at the age of 84. He is buried beneath the museum that he built in Figueres. 
-                  His final resting place is three blocks away from the house that he was born in and across the street from the Sant Pere church where 
-                  he was baptized and had his first communion.
-                  </p>
-              </div>
-          </section>
-          <footer class="slider">
-              <a href="#section4-slide-1" title="The Harmony of the Spheres (1978)"></a>
-              <a href="#section4-slide-2" title="Argus (1981)"></a>
-              <a href="#section4-slide-3" title="Architectural Contortion of El Escorial (1982)"></a>
-              <a href="#section4-slide-5" title="Pieta (1982)"></a>
-              <a href="#section4-slide-4" title="Bed and Two Bedside Tables Ferociously Attacking a Cello, Final Stage (1983)"></a>
-              <div class="slides">
-                <div class="slide-img-container" id="section4-slide-1">
-                  <img src="img/artgallery/the-harmony-of-the-spheres.jpg" 
-                  alt="The Harmony of the Spheres (1978)" title="The Harmony of the Spheres (1978)"/>
-                </div>
-                <div class="slide-img-container" id="section4-slide-2">
-                  <img src="img/artgallery/argus.jpg" alt="Argus (1981)" title="Argus (1981)"/>
-                </div>
-                <div class="slide-img-container" id="section4-slide-3">
-                  <img src="img/artgallery/architectural-contortion-of-el-escorial.jpg" 
-                  alt="Architectural Contortion of El Escorial (1982)" title="Architectural Contortion of El Escorial (1982)"/>
-                </div>
-                <div class="slide-img-container" id="section4-slide-5">
-                  <img src="img/artgallery/pieta-1.jpg" alt="Pieta (1982)" title="Pieta (1982)"/>
-                </div>
-                <div class="slide-img-container" id="section4-slide-4">
-                  <img src="img/artgallery/bed-and-two-bedside-tables-ferociously-attacking-a-cello-final-stage.jpg" 
-                  alt="Bed and Two Bedside Tables Ferociously Attacking a Cello, Final Stage (1983)" 
-                  title="Bed and Two Bedside Tables Ferociously Attacking a Cello, Final Stage (1983)"/>
-                </div>
-              </div>
-          </footer>
-        </article>
+      <input type="checkbox" name="collapse" id="fourth-coll-section">
+      <div class="collapsible-section-title">
+        <label for="fourth-coll-section">THE HARMONY OF THE SPHERES</label>
+      </div>
+      <article class="collapsible-section-content">
+        <header>
+          <h4 class="collapsible-section-quote">
+            "Everything alters me, but nothing changes me."
+          </h4>
+        </header>
+        <section class="row container-row">
+          <div class="collapsible-section-img">
+            <img src="img/biography/dali-en-espagne-by-manuel-litran-1981.png"
+              alt="Dalí in Spain by Manuel Litran, 1981" title="Dalí in Spain by Manuel Litran, 1981" />
+          </div>
+          <div class="collapsible-section-text">
+            <p>
+              The last two decades of Dalí's life would be the most difficult and psychologically arduous, bit it was in
+              1980, at age 76, that Dalí's
+              health took a catastrophic turn. His right hand trembled terribly, with Parkinson-like symptoms.
+              His near-senile wife allegedly had been dosing him with a dangerous cocktail of unprescribed medicine that
+              damaged his nervous system,
+              thus causing an untimely end to his artistic capacity. Yet, he did not waste his time : one of his most
+              important achievements during
+              this rough time was the creation of The Dalí Theatre-Museum in Figueres.
+            </p>
+            <p>
+              His wife Gala died on 10 June 1982, at the age of 87. After her death in 1982, Dalí experienced a further
+              bout of depression
+              and is believed to have attempted suicide. On the morning of 23 January 1989, while his favorite record of
+              Tristan and Isolde played,
+              Dalí died of heart failure at Figueres at the age of 84. He is buried beneath the museum that he built in
+              Figueres.
+              His final resting place is three blocks away from the house that he was born in and across the street from
+              the Sant Pere church where
+              he was baptized and had his first communion.
+            </p>
+          </div>
+        </section>
+        <footer class="slider">
+          <a href="#section4-slide-1" title="The Harmony of the Spheres (1978)"></a>
+          <a href="#section4-slide-2" title="Argus (1981)"></a>
+          <a href="#section4-slide-3" title="Architectural Contortion of El Escorial (1982)"></a>
+          <a href="#section4-slide-5" title="Pieta (1982)"></a>
+          <a href="#section4-slide-4"
+            title="Bed and Two Bedside Tables Ferociously Attacking a Cello, Final Stage (1983)"></a>
+          <div class="slides">
+            <div class="slide-img-container" id="section4-slide-1">
+              <img src="img/artgallery/the-harmony-of-the-spheres.jpg" alt="The Harmony of the Spheres (1978)"
+                title="The Harmony of the Spheres (1978)" />
+            </div>
+            <div class="slide-img-container" id="section4-slide-2">
+              <img src="img/artgallery/argus.jpg" alt="Argus (1981)" title="Argus (1981)" />
+            </div>
+            <div class="slide-img-container" id="section4-slide-3">
+              <img src="img/artgallery/architectural-contortion-of-el-escorial.jpg"
+                alt="Architectural Contortion of El Escorial (1982)"
+                title="Architectural Contortion of El Escorial (1982)" />
+            </div>
+            <div class="slide-img-container" id="section4-slide-5">
+              <img src="img/artgallery/pieta-1.jpg" alt="Pieta (1982)" title="Pieta (1982)" />
+            </div>
+            <div class="slide-img-container" id="section4-slide-4">
+              <img src="img/artgallery/bed-and-two-bedside-tables-ferociously-attacking-a-cello-final-stage.jpg"
+                alt="Bed and Two Bedside Tables Ferociously Attacking a Cello, Final Stage (1983)"
+                title="Bed and Two Bedside Tables Ferociously Attacking a Cello, Final Stage (1983)" />
+            </div>
+          </div>
+        </footer>
+      </article>
     </section>
   </main>
-    
+
   <footer class="footer">
-    <p>
-        Quotes & Paintings © 1904 - 1989 Salvador Dalí<br>
-        (Source : <a href="https://www.wikiart.org/en/salvador-dali" target=" _blank" rel="noopener noreferrer">WikiArt</a> 
-        & <a href="https://www.goodreads.com/author/quotes/165858.Salvador_Dal_" target=" _blank" rel="noopener noreferrer">GoodReads</a>)<br>
-        Photos © 
-        <a href="https://unregardoblique.com/2021/01/02/dali-thru-magnifiers-1950s/" target=" _blank" rel="noopener noreferrer">1950 Willy Rizzo</a>, 
-        <a href="https://www.mcmahanphoto.com/zz0030--salvador-dali-with-ocelot-1965-portrait-photo-print.html" target=" _blank" rel="noopener noreferrer">1965 Roger Higgins</a>, 
-        <a href="https://www.mutualart.com/Artwork/Salvador-Dali-en-Espagne/16C2FBED7919FABC" target=" _blank" rel="noopener noreferrer">1981 Manuel Litran</a><br>
-        Radio Interview © 1958 Mike Wallace (Source : <a href="https://www.soundboard.com/sb/Salvador_Dali_Interview" target=" _blank" rel="noopener noreferrer">
-        SoundBoard</a>)<br>
-        Biography Sources :<br>
-        © 2021 <a href="https://www.theartstory.org/artist/dali-salvador/life-and-legacy/" target=" _blank" rel="noopener noreferrer">The Art Story Foundation</a><br>
-        © 2021 <a href="https://www.myenglishpages.com/english/reading-salvador-dali-biography.php" target=" _blank" rel="noopener noreferrer">My English Pages</a><br>
-        © 2021 <a href="https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD" target=" _blank" rel="noopener noreferrer">Wikipedia</a><br>
-        Website 'Dalí's Surreal Dreams' © 2021 Sofia Horvath
-    </p>
-</footer>
+    <div class="row container-row">
+      <div class="center-container">
+        <p>
+          Quotes & Paintings © 1904 - 1989 Salvador Dalí<br>
+          (Source : <a href="https://www.wikiart.org/en/salvador-dali" target=" _blank"
+            rel="noopener noreferrer">WikiArt</a>
+          & <a href="https://www.goodreads.com/author/quotes/165858.Salvador_Dal_" target=" _blank"
+            rel="noopener noreferrer">GoodReads</a>)<br>
+          Photos ©
+          <a href="https://unregardoblique.com/2021/01/02/dali-thru-magnifiers-1950s/" target=" _blank"
+            rel="noopener noreferrer">1950 Willy Rizzo</a>,
+          <a href="https://www.mcmahanphoto.com/zz0030--salvador-dali-with-ocelot-1965-portrait-photo-print.html"
+            target=" _blank" rel="noopener noreferrer">1965 Roger Higgins</a>,
+          <a href="https://www.mutualart.com/Artwork/Salvador-Dali-en-Espagne/16C2FBED7919FABC" target=" _blank"
+            rel="noopener noreferrer">1981 Manuel Litran</a><br>
+          Radio Interview © 1958 Mike Wallace (Source : <a href="https://www.soundboard.com/sb/Salvador_Dali_Interview"
+            target=" _blank" rel="noopener noreferrer">
+            SoundBoard</a>)<br>
+          Biography Sources :<br>
+          © 2021 <a href="https://www.theartstory.org/artist/dali-salvador/life-and-legacy/" target=" _blank"
+            rel="noopener noreferrer">The Art Story Foundation</a><br>
+          © 2021 <a href="https://www.myenglishpages.com/english/reading-salvador-dali-biography.php" target=" _blank"
+            rel="noopener noreferrer">My English Pages</a><br>
+          © 2021 <a href="https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD" target=" _blank"
+            rel="noopener noreferrer">Wikipedia</a><br>
+          Website 'Dalí's Surreal Dreams' © 2021 Sofia Horvath
+        </p>
+      </div>
+    </div>
+    <div class="row container-row">
+      <div class="center-container">
+        <!-- Sharingbutton Facebook -->
+        <a class="resp-sharing-button__link"
+          href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsofiahorvath91.github.io%2Fucd-project-1%2F"
+          target="_blank" rel="noopener" aria-label="">
+          <div class="resp-sharing-button facebook">
+            <div aria-hidden="true" class="resp-sharing-button__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                <path
+                  d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <!-- Sharingbutton Twitter -->
+        <a class="resp-sharing-button__link"
+          href="https://twitter.com/intent/tweet/?text=Dal%C3%AD&#x27;s%20Surreal%20Dreams&amp;url=https%3A%2F%2Fsofiahorvath91.github.io%2Fucd-project-1%2F"
+          target="_blank" rel="noopener" aria-label="">
+          <div class="resp-sharing-button twitter">
+            <div aria-hidden="true" class="resp-sharing-button__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                <path
+                  d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <!-- Sharingbutton E-Mail -->
+        <a class="resp-sharing-button__link"
+          href="mailto:?subject=Dal%C3%AD&#x27;s%20Surreal%20Dreams&amp;body=https%3A%2F%2Fsofiahorvath91.github.io%2Fucd-project-1%2F"
+          target="_self" rel="noopener" aria-label="">
+          <div class="resp-sharing-button email">
+            <div aria-hidden="true" class="resp-sharing-button__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                <path
+                  d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
+              </svg>
+            </div>
+          </div>
+        </a>
+        <!-- Sharingbutton WhatsApp -->
+        <a class="resp-sharing-button__link"
+          href="whatsapp://send?text=Dal%C3%AD&#x27;s%20Surreal%20Dreams%20https%3A%2F%2Fsofiahorvath91.github.io%2Fucd-project-1%2F"
+          target="_blank" rel="noopener" aria-label="">
+          <div class="resp-sharing-button whatsapp">
+            <div aria-hidden="true" class="resp-sharing-button__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                <path
+                  d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>

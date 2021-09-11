@@ -1,6 +1,5 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
 @import url(index.css);
 @import url(biography.css);
 @import url(artgallery.css);
@@ -61,7 +60,7 @@ p {
   text-shadow: var(--blue-shadow);
 }
 
-/* Navbar */
+/* Navbar => Source / Inspiration : https://getbootstrap.com/docs/4.0/components/navbar/ */
 
 .navbar,
 .navbar-container {
@@ -118,7 +117,7 @@ p {
   padding: 0.5rem;
   margin-top: 1rem;
   height: auto;
-  display: flex;
+  display: block;
 }
 
 .footer p {
@@ -131,6 +130,68 @@ p {
 
 .footer p a {
   color: white !important;
+}
+
+/* Footer Social Sharing buttons => Source / Inspiration : https://sharingbuttons.io/ */
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  border: 0.1em solid white;
+}
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 0.5em 0 0.5em;
+}
+
+.resp-sharing-button__icon{
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+.facebook:hover,
+.facebook:active{
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.twitter:hover,
+.twitter:active{
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.email:hover,
+.email:active{
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.whatsapp:hover,
+.whatsapp:active{
+  background-color: #25D366;
+  border-color: #25D366;
 }
 
 /* Resize */
