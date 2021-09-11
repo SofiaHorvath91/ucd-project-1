@@ -54,6 +54,6 @@ The very basic skeleton of the site was modelled by Wireframes via Balsamiq.
 * [Biography Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Biography.png)
 * [Gallery Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Gallery.png)
 * [Museums Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Museums.png)
-* [Other Works Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Other Works.png)
+* [Other Works Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-OtherWorks.png)
 * [Surrealism Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Surrealism.png)
 * [Feedback Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Feedback.png)
