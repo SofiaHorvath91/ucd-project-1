@@ -34,7 +34,7 @@
             <div class="navbar-container">
                 <div class="navbar-logo">
                     <a href="index.html">
-                        <img class="logo-img" src="img/dali_logo.png" title="Home">
+                        <img class="logo-img" src="img/dali_logo.png" title="Home" alt="Site Logo">
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -83,7 +83,7 @@
         </div>
         <div class="row container-row mt-3 mb-2">
             <div class="center-container">
-                <form action="feedback.html" method="POST">
+                <form id="feedback-form" name="feedback-form" action="feedback.html" method="POST">
                     <fieldset>
                         <legend class="red-shadow">ABOUT YOU</legend>
                         <div class="row container-row mb-3">
@@ -175,8 +175,8 @@
                             </div>
                         </div>
                         <div class="row container-row mb-3">
-                            <label><strong>Comment *</strong></label>
-                            <textarea name="comment-text" rows="10" autocomplete="off" maxlength="300"
+                            <label for="comment-text"><strong>Comment *</strong></label>
+                            <textarea id="comment-text" name="comment-text" rows="10" autocomplete="off" maxlength="300"
                                 required></textarea>
                         </div>
                     </fieldset>

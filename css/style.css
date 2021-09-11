@@ -17,6 +17,10 @@
   --card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   --red-shadow: 0 0 10px red;
   --blue-shadow: 0 0 10px blue;
+  --facebook: #3b5998;
+  --twitter:#55acee;
+  --email:#777777;
+  --whatsapp:#25D366;
 }
 
 /* Body */
@@ -138,60 +142,60 @@ p {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Helvetica Neue','Helvetica','Arial,sans-serif';
   border: 0.1em solid white;
 }
 
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
-  display: inline-block
+  display: inline-block;
 }
 
 .resp-sharing-button__link {
   text-decoration: none;
-  color: #fff;
+  color: white;
   margin: 0 0.5em 0 0.5em;
 }
 
 .resp-sharing-button__icon{
-  fill: #fff;
-  stroke: none
+  fill: white;
+  stroke: none;
 }
 
 .resp-sharing-button__icon svg {
   width: 1em;
   height: 1em;
   margin-right: 0.4em;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .resp-sharing-button svg {
   margin: 0;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 .facebook:hover,
 .facebook:active{
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: var(--facebook);
+  border-color: var(--facebook);
 }
 
 .twitter:hover,
 .twitter:active{
-  background-color: #55acee;
-  border-color: #55acee;
+  background-color: var(--twitter);
+  border-color: var(--twitter);
 }
 
 .email:hover,
 .email:active{
-  background-color: #777777;
-  border-color: #777777;
+  background-color: var(--email);
+  border-color: var(--email);
 }
 
 .whatsapp:hover,
 .whatsapp:active{
-  background-color: #25D366;
-  border-color: #25D366;
+  background-color: var(--whatsapp);
+  border-color: var(--whatsapp);
 }
 
 /* Resize */
