@@ -51,3 +51,4 @@ Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/.
 ### 5. Skeleton
 The very basic skeleton of the site was modelled by Wireframes via Balsamiq. 
 ![Index Page Wireframe](/img/readme/balsamiq - Index.png)
+Format: ![Alt Text](url)
