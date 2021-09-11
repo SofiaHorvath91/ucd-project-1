@@ -74,13 +74,13 @@ Therefore I chose a basic black and white design with simple blue (#0000ff) and 
 An audio file can be also played by users to provide further insight into Dalí’s life : a part of a radio interview made with him in 1958 by Mike Wallace, where he talks about genius, personality, the subconscious and dreams. Users can also navigate to the full interview if are interested in it.
 * Art Gallery pages
   * The Art Gallery part of the site is consisted of three pages, which can be reached through a drop menu item and which present different sub-categories of Dalí’s artistic heritage. The dropdown option is indicated in the navbar, and the dropdown items are styled to be readable and visible in all cases.
-1. Gallery page
+   1. Gallery page
   * This page features an image gallery of 45 selected works of Dalí. Upon hovering, the users can see the name and creation date of each painting. The gallery is fully responsive on all devices, varying the number of columns to show based on screen size. 
 Users can also watch a video which features 933 of Dalí’s works with musical background on the page or on Youtube, and may also follow a link to Wikiart where they discover all of Dalí’s works.
-2.	Museums page
+   2. Museums page
   * This page presents the all the museums world-wide which hold a permanent Dalí collection in a styled table. For each museum, an image, a description, a link toward the museum’s site, and the museum’s location included with link to Google Maps. The table design is fully responsive, adapting to the screen size of any device.
 Users can also watch a video of the Dalí Museum (Floride, USA) on the page or on Youtube, and may also follow a link to the Dalí Museum’s Yotube channel to find more similar videos.
-3.	Other Works page
+   3. Other Works page
   * This page features The Andalusian Dog, the only short film directed by Dalí (together with director Luis Buñuel) and the two biography books written by Dalí himself.
 Users can watch the full short film on the page or on Youtube, and also redirect to Amazon to buy the books online and discover other related literature.
 * Surrealism page
