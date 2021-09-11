@@ -73,8 +73,8 @@ Therefore I chose a basic black and white design with simple blue (#0000ff) and 
   * For simple design and easy user navigation, the biography of Dalí is divided into four collapsible sections, summarizing the different chronological periods of his life, with a slideshow gallery of his paintings made in the given period included in each section as visual backup. The sections are titled after a famous painting made during the highlighted period, and these section titles are highlighted upon hovering and opening.
 An audio file can be also played by users to provide further insight into Dalí’s life : a part of a radio interview made with him in 1958 by Mike Wallace, where he talks about genius, personality, the subconscious and dreams. Users can also navigate to the full interview if are interested in it.
 * Art Gallery pages
-  * The Art Gallery part of the site is consisted of three pages, which can be reached through a drop menu item and which present different sub-categories of Dalí’s artistic heritage. The dropdown option is indicated in the navbar, and the dropdown items are styled to be readable and visible in all cases.
-   1. Gallery page
+The Art Gallery part of the site is consisted of three pages, which can be reached through a drop menu item and which present different sub-categories of Dalí’s artistic heritage. The dropdown option is indicated in the navbar, and the dropdown items are styled to be readable and visible in all cases.
+1. Gallery page
   * This page features an image gallery of 45 selected works of Dalí. Upon hovering, the users can see the name and creation date of each painting. The gallery is fully responsive on all devices, varying the number of columns to show based on screen size. 
 Users can also watch a video which features 933 of Dalí’s works with musical background on the page or on Youtube, and may also follow a link to Wikiart where they discover all of Dalí’s works.
    2. Museums page
