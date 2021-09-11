@@ -100,3 +100,7 @@ As a page main illustration, a dynamically rotating, styled image is used which 
 * Footer
   * The footer section includes sources and copyrights for all content used to create the page with external hyperlinks to the sites. This encourages users to dive deeper into the subject through other websites and to get know other great resources and artists.
 The footer section allows to share this website with other people through social media sites and email via social share buttons. 
+### 3. Future Features
+* Modal boxes for allowing see gallery images in bigger version
+* Another dropdown item in art gallery for sculptures
+## Code validation
