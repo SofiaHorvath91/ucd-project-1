@@ -63,5 +63,5 @@ During site development, additional design elements was added for better UX.
   * When planning the project, knowing that a rich visual material (photos and paintings) will be used as illustration, I wanted a simple, almost minimalist design and colour theme for the background and UI elements.
 Therefore I chose a basic black and white design with simple blue (#0000ff) and red (#ff0000) highlights. I prepared the background wallpapers with Photoshop, using free png/svg images.
 * Font Selection
-  * The main font type was chosen with Google Fonts and is used across the whole of the website: Averia Serif Libre. This is a well readable yet a bit dream-like font type which suits well to the theme of the site.
+  * The main font type was chosen with [Google Fonts](https://fonts.google.com/) and is used across the whole of the website: [Averia Serif Libre](https://fonts.google.com/specimen/Averia+Serif+Libre). This is a well readable yet a bit dream-like font type which suits well to the theme of the site.
 ## Features
