@@ -50,4 +50,3 @@ Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/.
 * In the Footer, users can find the sources and copyrights of different contents used to create the site, all completed with hyperlinks toward the original source, as well as icon buttons to share site on different social media platforms.
 ### 5. Skeleton
 The very basic skeleton of the site was modelled by Wireframes via Balsamiq. 
-![GitHub Logo](/img/readme/balsamiq - Index.png)
