@@ -49,7 +49,7 @@ Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/.
 * The Feedback page allows users to leave feedback, questions and rating about the site, enabling site owner to further improve the site’s UX
 * In the Footer, users can find the sources and copyrights of different contents used to create the site, all completed with hyperlinks toward the original source, as well as icon buttons to share site on different social media platforms.
 ### 5. Skeleton
-The very basic skeleton of the site was modelled by Wireframes via Balsamiq. 
+The very basic skeleton of the site was modelled by Wireframes via Balsamiq, and during site development, additional design elements was added for better UX.
 * [Index Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Index.png)
 * [Biography Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Biography.png)
 * [Gallery Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Gallery.png)
@@ -57,7 +57,6 @@ The very basic skeleton of the site was modelled by Wireframes via Balsamiq.
 * [Other Works Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-OtherWorks.png)
 * [Surrealism Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Surrealism.png)
 * [Feedback Page Wireframe](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/balsamiq-Feedback.png)
-During site development, additional design elements was added for better UX.
 ### 6. Style
 * Design & Colours
   * When planning the project, knowing that a rich visual material (photos and paintings) will be used as illustration, I wanted a simple, almost minimalist design and colour theme for the background and UI elements.
