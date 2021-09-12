@@ -3,7 +3,7 @@ Tribute to Salvador Dalí's Surreal Dreams
 
 The aim of this site is to present the great artist Salvador Dalí and his works in a simple and interactive way. Users can discover his life and his artworks, learn about surrealism, and they can also access other relevant and interesting materials about Dalí and his art. If you wish to dive into the surreal world, this may be a good place to start and get know the main principles through the great artworks and extraordinary life of Salvador Dalí!
 
-![responsive-design](https://user-images.githubusercontent.com/83947734/132755719-33b0a1df-3216-4b4f-b59c-f311b5ccee44.PNG)
+![Responsive Layouts](/img/readme/responsive-design.PNG)
 
 Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/.
 
@@ -95,24 +95,49 @@ Biography Collapsible Section\
   * This page features an image gallery of 45 selected works of Dalí. Upon hovering, the users can see the name and creation date of each painting. The gallery is fully responsive on all devices, varying the number of columns to show based on screen size. 
 Users can also watch a video which features 933 of Dalí’s works with musical background on the page or on Youtube, and may also follow a link to Wikiart where they discover all of Dalí’s works.
 
+Gallery Page\
+![Gallery Page](/img/readme/features-gallery.PNG)
+
 * __Art Gallery pages : Museums page__
   * This page presents the all the museums world-wide which hold a permanent Dalí collection in a styled table. For each museum, an image, a description, a link toward the museum’s site, and the museum’s location included with link to Google Maps. The table design is fully responsive, adapting to the screen size of any device.
 Users can also watch a video of the Dalí Museum (Floride, USA) on the page or on Youtube, and may also follow a link to the Dalí Museum’s Yotube channel to find more similar videos.
+
+Museums Page\
+![Museums Page](/img/readme/features-museums.PNG)
 
 * __Art Gallery pages : Other Works page__
   * This page features The Andalusian Dog, the only short film directed by Dalí (together with director Luis Buñuel) and the two biography books written by Dalí himself.
 Users can watch the full short film on the page or on Youtube, and also redirect to Amazon to buy the books online and discover other related literature.
 
+Other Works Page - Films\
+![Other Works Page](/img/readme/features-others-film.PNG)
+Other Works Page - Books\
+![Other Works Page](/img/readme/features-others-books.PNG)
+
 * __Surrealism page__
   * This page allows users to learn more about the surreal art in general and about other famous surrealist painters (Ernst, Magritte, and Picasso) with visual illustrations of their works to awake interest. If interested, users can navigate to their full Wikiart page to discover their life and art.
 As a page main illustration, a dynamically rotating, styled image is used which presents well the essence of surrealism I think.
 
+Surrealism Page - Description\
+![Surrealism Page](/img/readme/features-surrealism-description.PNG)
+Surrealism Page - Other Painters\
+![Surrealism Page](/img/readme/features-surrealism-artists.PNG)
+
 * __Feedback__
   * This page consists of a responsive form with two fieldsets, allowing users to leave their details (name, email, phone, the level of their knowledge about Dalí), and a rating with comment regarding the site’s quality, content or just to have a question. Only some fields are required for submission, all marked with an asterix, for not discouraging users from leaving a feedback, and if they change their mind, they can clear all fields. 
+
+Feedback Page - Description\
+![Feedback Page](/img/readme/features-surrealism-description.PNG)
+Feedback Page - Other Painters\
+![Feedback Page](/img/readme/features-surrealism-artists.PNG)
 
 * __Footer__
   * The footer section includes sources and copyrights for all content used to create the page with external hyperlinks to the sites. This encourages users to dive deeper into the subject through other websites and to get know other great resources and artists.
 The footer section allows to share this website with other people through social media sites and email via social share buttons. 
+
+Footer\
+![Footer](/img/readme/features-footer.PNG)
+
 ### 2. Future Features
 * Modal boxes for allowing see gallery images in bigger version
 * Another dropdown item in art gallery for sculptures
