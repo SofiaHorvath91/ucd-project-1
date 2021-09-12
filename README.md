@@ -210,7 +210,7 @@ Salvador Dalí’s quotes used as page titles and subsection titles / elements: 
   * [My English Pages](https://www.myenglishpages.com/english/reading-salvador-dali-biography.php)
   * [Wikipedia](https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD)
 * Content Source(s) used for Museums Page:
-  * [The Dalí Universe] (https://www.thedaliuniverse.com/en/dali-museums)
+  * [The Dalí Universe](https://www.thedaliuniverse.com/en/dali-museums)
 * Content Source(s) used for Other Works Page:
   * Film : [Wikipedia](https://en.wikipedia.org/wiki/Un_Chien_Andalou)
   * Books : [Amazon](https://www.amazon.com)
@@ -219,9 +219,9 @@ Salvador Dalí’s quotes used as page titles and subsection titles / elements: 
   * Quotes of other artists : [GoodReads](https://www.goodreads.com/) & [AZQuotes](https://www.azquotes.com/author/9289-Rene_Magritte)
 ### Media
 Pictures were treated with Photoshop and tinyPNG to have a better size for online presentation.
-* Site Logo made by me by editing following source image : [WikiMedia] (https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
+* Site Logo made by me by editing following source image : [WikiMedia](https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
 * Media Source(s) used for Index Page :
-  * Signature of Dalí : [WikiMedia] (https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
+  * Signature of Dalí : [WikiMedia](https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
   * Photos : [Philippe Halsman (WikiArt)](https://www.wikiart.org/en/philippe-halsman/voluptas-mors-1951) & [Charles Hewitt (Time)](https://time.com/4318151/salvador-dali/) & [Jean Dieuzaide (The Raw Society)](https://www.therawsociety.org/25-years-later-by-xavier-benech/)
 * Media Source(s) used for Biography Page :
   * Audio file : [Mike Wallace (SoundBoard)](https://www.soundboard.com/sb/Salvador_Dali_Interview)
@@ -261,4 +261,4 @@ Pictures were treated with Photoshop and tinyPNG to have a better size for onlin
 ### Special Thanks
 * My mentor Rahul Lakhanpal for his time, kind words and support.
 * My previous private mentor Samu Gábor Tamás who taught me all I know in the last two years
-* My mother who is always there for me
+* My Mother who is always there for me
