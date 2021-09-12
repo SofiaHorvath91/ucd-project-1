@@ -5,7 +5,7 @@ The aim of this site is to present the great artist Salvador Dalí and his works
 
 ![Responsive Layouts](/img/readme/responsive-design.PNG)
 
-Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/\
+Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/ \
 Technologies : HTML + CSS
 
 ## UX
