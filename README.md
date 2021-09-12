@@ -154,7 +154,8 @@ Passing the HTML of all pages through the [W3C Markup Validator](https://validat
   * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-feedback.pdf)
 
 * CSS\
-Passing the CSS of all pages through the [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors have been found.
+Passing the CSS of all pages through the [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors have been found.\
+Warnings are coming from dynamic CSS variables and imported style sheets which are out of scope of validator. Also warning appears concerning the CSS of slideshow’s scrollbar, as these elements are out of scope for validator.
   * [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-index.pdf)
   * [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-biography.pdf)
   * [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-gallery.pdf)
@@ -162,4 +163,3 @@ Passing the CSS of all pages through the [W3C Jigsaw Validator](https://jigsaw.w
   * [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-others.pdf)
   * [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-surrealism.pdf)
   * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-feedback.pdf)
-\Warnings are coming from dynamic CSS variables and imported style sheets which are out of scope of validator. Also warning appears concerning the CSS of slideshow’s scrollbar, as these elements are out of scope for validator.
