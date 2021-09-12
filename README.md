@@ -237,12 +237,12 @@ Salvador Dalí’s quotes used as page titles and subsection titles / elements: 
 * Media Source(s) used for Surrealism Page:
   * Paintings  : WikiArt
 * Media Source(s) used for Feedback Page:
-  * Photo : Philippe Halsman (MutualArt)
+  * Photo : Philippe Halsman (MutualArt)\
 Background images made by me with Photoshop. Background images’ sources: 
 * Index / Feedback Pages : PNGKey
 * Biography Page : SVGFiles
 * Art Gallery Pages (Gallery/Museums/Other Works) : Pinterest
-* Surrealism Page : Pinterest
+* Surrealism Page : Pinterest\
 Pictures were treated with Photoshop and tinyPNG to have a better size for online presentation.
 ### External Codes used as source / inspiration
 * Responsive Menu (Navigation Bar) : Bootstrap
@@ -256,7 +256,7 @@ Pictures were treated with Photoshop and tinyPNG to have a better size for onlin
 * To the Code Institute for the great course material
 * To the Stack Overflow & W3Schools as a valuable resource for solving issues.
 * To all the wonderful artists, organizations and programmers who provided great source materials 
-* To Salvador Dalí, for being such an extraordinary person and wonderful artist!
+* To Salvador Dalí, for being such an extraordinary person and wonderful artist!\
 I would also like to thank:
 * My mentor Rahul Lakhanpal for his time, kind words and support.
 * My previous private mentor Samu Gábor who taught me all I know in the last two years
