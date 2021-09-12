@@ -202,3 +202,62 @@ By forking the GitHub Repository, the user can copy the original repository in h
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7.	Press Enter
 ## Credits
+All content / visual / media material used to build the site is referenced and copyrighted in the footer of the corresponding page.
+### Content
+Salvador Dalí’s quotes used as page titles and subsection titles / elements: GoodReads
+* Content Source(s) used for Biography Page :
+  * The Art Story
+  * My English Pages
+  * Wikipedia
+* Content Source(s) used for Museums Page:
+  * The Dalí Universe
+* Content Source(s) used for Other Works Page:
+  * Film : Wikipedia
+  * Books : Amazon
+* Content Source(s) used for Surrealism Page:
+  * Britannica
+  * Quotes of other artists : GoodReads & AZQuotes
+### Media
+* Media Source(s) used for Index Page :
+  * Signature of Dalí : WikiMedia
+  * Photos : Philippe Halsman (WikiArt) & Charles Hewitt (Time) & Jean Dieuzaide (The Raw Society)
+* Media Source(s) used for Biography Page :
+  * Audio file : Mike Wallace (SoundBoard)
+  * Paintings : WikiArt
+  * Photos : Wikipedia & Willy Rizzo (Un Regard Oblique) & Roger Higgins (McMahan Photo) & Manuel Litran (MutualArt)
+* Media Source(s) used for Gallery Page :
+  * Video file : LearnFromMasters (YouTube)
+  * Paintings : WikiArt
+* Media Source(s) used for Museums Page:
+  * Video file : The Dalí Museums (YouTube)
+  * Photos/Images : Respective museum sites + Wikipedia
+* Media Source(s) used for Other Works Page:
+  * Video file : Curated Movies & TV Shows (YouTube)
+  * Images : Amazon
+* Media Source(s) used for Surrealism Page:
+  * Paintings  : WikiArt
+* Media Source(s) used for Feedback Page:
+  * Photo : Philippe Halsman (MutualArt)
+Background images made by me with Photoshop. Background images’ sources: 
+* Index / Feedback Pages : PNGKey
+* Biography Page : SVGFiles
+* Art Gallery Pages (Gallery/Museums/Other Works) : Pinterest
+* Surrealism Page : Pinterest
+Pictures were treated with Photoshop and tinyPNG to have a better size for online presentation.
+### External Codes used as source / inspiration
+* Responsive Menu (Navigation Bar) : Bootstrap
+* Social Media Sharing Buttons (Footer) : SharingButtons
+* Info Cards (Index/Other Works/Surrealism Pages) : W3Schools
+* CSS-Only Collapsible Sections (Biography Page) : CodePen (Mark Caron)
+* CSS-Only Slideshow (Biography Page) : CSS Tricks
+* Responsive Image Grid (Gallery Page) : W3Schools
+* CSS-Only Circle Rotation of Image (Surrealism Page) : Dev.to (Benji Thrope)
+### Acknowledgements
+* To the Code Institute for the great course material
+* To the Stack Overflow & W3Schools as a valuable resource for solving issues.
+* To all the wonderful artists, organizations and programmers who provided great source materials 
+* To Salvador Dalí, for being such an extraordinary person and wonderful artist!
+I would also like to thank:
+* My mentor Rahul Lakhanpal for his time, kind words and support.
+* My previous private mentor Samu Gábor who taught me all I know in the last two years
+* My mother who is always there for me
