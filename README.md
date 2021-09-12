@@ -142,3 +142,13 @@ Footer\
 * Modal boxes for allowing see gallery images in bigger version
 * Another dropdown item in art gallery for sculptures
 ## Code validation
+### 1. Automated tests
+* HTML\
+Passing the HTML of all pages through the [W3C Validator](https://validator.w3.org/) and no errors/warnings have been found.
+* [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-index.pdf)
+* [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-biography.pdf)
+* [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-gallery.pdf)
+* [Museums Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-museums.pdf)
+* [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-others.pdf)
+* [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-surrealism.pdf)
+* [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-feedback.pdf)
