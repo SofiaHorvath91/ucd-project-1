@@ -186,7 +186,7 @@ Therefore, if the file could not be played on a device/browser, a Youtube link i
 The site was deployed to GitHub pages.
 1.	GitHub repository => Settings => GitHub Pages
 2.	Source => Selecting Branch + Folder (main/docs)
-3.	With branch/folder selected, the page refreshes to show deployment status
+3.	With branch/folder selected, the page refreshes to show deployment status\
 The live link can be found [here](https://sofiahorvath91.github.io/ucd-project-1/).
 ### 1. Forking Repository
 By forking the GitHub Repository, the user can copy the original repository in his/her own GitHub account, allowing the user to view and/or make changes without affecting the original repository.
