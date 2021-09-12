@@ -205,7 +205,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7.	Press Enter
 ## Credits
 All content / visual / media material used to build the site is referenced and copyrighted in the footer of the corresponding page.
-### Content
+### 1. Content
 Salvador Dalí’s quotes used as page titles and subsection titles / elements: [GoodReads](https://www.goodreads.com/author/quotes/165858.Salvador_Dal_)
 * Content Source(s) used for Biography Page :
   * [The Art Story](https://www.theartstory.org/artist/dali-salvador/life-and-legacy/)
@@ -219,7 +219,7 @@ Salvador Dalí’s quotes used as page titles and subsection titles / elements: 
 * Content Source(s) used for Surrealism Page:
   * [Britannica](https://www.britannica.com/art/Surrealism)
   * Quotes of other artists : [GoodReads](https://www.goodreads.com/) & [AZQuotes](https://www.azquotes.com/author/9289-Rene_Magritte)
-### Media
+### 2. Media
 Pictures were treated with [Photoshop](http://www.apsportable.com/photoshop-cs6-portable-download-4/) and [tinyPNG](https://tinypng.com/) to have a better size for online presentation.
 * Site Logo made by me by editing following source image : [WikiMedia](https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
 * Media Source(s) used for Index Page :
@@ -248,7 +248,7 @@ Pictures were treated with [Photoshop](http://www.apsportable.com/photoshop-cs6-
   * Art Gallery Pages (Gallery/Museums/Other Works) : [PNGKey](https://www.pngkey.com/maxpic/u2q8t4a9i1y3e6e6/)
   * Surrealism Page : [Pinterest](https://www.pinterest.com/pin/377106168803032761/)
 * Responsive layout image (top of README) made with [AmIResponsive](http://ami.responsivedesign.is/)
-### External Codes used as source / inspiration
+### 3. External Codes used as source / inspiration
 * Responsive Menu (Navigation Bar) : [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) (also used for general styling like margins, rows)
 * Social Media Sharing Buttons (Footer) : [SharingButtons](https://sharingbuttons.io/)
 * Info Cards (Index/Other Works/Surrealism Pages) : [W3Schools](https://www.w3schools.com/howto/howto_css_team.asp)
@@ -256,12 +256,12 @@ Pictures were treated with [Photoshop](http://www.apsportable.com/photoshop-cs6-
 * CSS-Only Slideshow (Biography Page) : [CSS Tricks](https://css-tricks.com/css-only-carousel/)
 * Responsive Image Grid (Gallery Page) : [W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
 * CSS-Only Circle Rotation of Image (Surrealism Page) : [Dev.to (Benji Thrope)](https://dev.to/benjithorpe/rotate-a-circle-with-css-1dp6)
-### Acknowledgements
+### 4. Acknowledgements
 * To the Code Institute for the great course material
 * To the [Stack Overflow](https://stackoverflow.com/) & [W3Schools](https://www.w3schools.com/) as a valuable resource for solving issues.
 * To all the wonderful artists, organizations and programmers who provided great source materials 
 * To Salvador Dalí, for being such an extraordinary person and wonderful artist!
-### Special Thanks
+### 5. Special Thanks
 * My mentor Rahul Lakhanpal for his time, kind words and support.
 * My previous private mentor Samu Gábor Tamás who taught me all I know in the last two years
 * My Mother who is always there for me
