@@ -69,6 +69,7 @@ Therefore I chose a basic black and white design with simple blue (#0000ff) and 
   * Featured on all pages, the navigation bar includes links to all subpages and is identical on each page for smooth navigation. The navbar is fully responsive on all screen sizes: for smaller devices, a hamburger navbar view is included with the help of Bootstrap for better UX and easier navigation.
 
 ![Navbar desktop](/img/readme/features-navbar.PNG)
+Navbar on Mobile\
 ![Navbar mobile](/img/readme/features-navbar-small.PNG)
 
 * Index page
@@ -81,6 +82,7 @@ Therefore I chose a basic black and white design with simple blue (#0000ff) and 
 An audio file can be also played by users to provide further insight into Dalí’s life : a part of a radio interview made with him in 1958 by Mike Wallace, where he talks about genius, personality, the subconscious and dreams. Users can also navigate to the full interview if are interested in it.
 
 ![Biography Page](/img/readme/features-biography.PNG)
+Biography Section
 ![Biography Section](/img/readme/features-biography2.PNG)
 
 * Art Gallery pages
