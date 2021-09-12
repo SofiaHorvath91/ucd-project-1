@@ -183,11 +183,10 @@ The entire website was verified about accessibility using [Wave](https://wave.we
 Playing the video files on mobile device may be problematic, as it does not only depend on the code, but also on the settings and capacities of the device what the user uses.
 Therefore, if the file could not be played on a device/browser, a Youtube link included for all videos, allowing users to watch the video in a different window if interested, without closing the actual site.
 ## Deployment
-The site was deployed to GitHub pages.
+The site was deployed to GitHub pages (find it [here](https://sofiahorvath91.github.io/ucd-project-1/)).
 1.	GitHub repository => Settings => GitHub Pages
 2.	Source => Selecting Branch + Folder (main/docs)
-3.	With branch/folder selected, the page refreshes to show deployment status\
-The live link can be found [here](https://sofiahorvath91.github.io/ucd-project-1/).
+3.	With branch/folder selected, the page refreshes to show deployment status
 ### 1. Forking Repository
 By forking the GitHub Repository, the user can copy the original repository in his/her own GitHub account, allowing the user to view and/or make changes without affecting the original repository.
 1.	Open GitHub => GitHub Repository
