@@ -6,7 +6,8 @@ The aim of this site is to present the great artist Salvador Dalí and his works
 ![Responsive Layouts](/img/readme/responsive-design.PNG)
 
 Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/ \
-Technologies : HTML + CSS
+Technologies : HTML + CSS\
+Software : [Visual Studio Code](https://code.visualstudio.com/)
 
 ## UX
 ### 1. User stories
@@ -184,7 +185,7 @@ The entire website was verified about accessibility using [Wave](https://wave.we
 Playing the video files on mobile device may be problematic, as it does not only depend on the code, but also on the settings and capacities of the device what the user uses.
 Therefore, if the file could not be played on a device/browser, a Youtube link included for all videos, allowing users to watch the video in a different window if interested, without closing the actual site.
 ## Deployment
-The site was deployed to GitHub pages (find it [here](https://sofiahorvath91.github.io/ucd-project-1/)).
+The site was deployed to GitHub pages (find it [here](https://sofiahorvath91.github.io/ucd-project-1/)) after building it with [Visual Studio Code](https://code.visualstudio.com/) and pushing it to GitHub Repository via [GitHub Desktop](https://desktop.github.com/).
 1.	GitHub repository => Settings => GitHub Pages
 2.	Source => Selecting Branch + Folder (main/docs)
 3.	With branch/folder selected, the page refreshes to show deployment status
