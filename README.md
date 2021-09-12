@@ -179,3 +179,27 @@ The entire website was verified about accessibility using [Wave](https://wave.we
 * [Other Works Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-others.png) | [Other Works Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-others-alerts.png)
 * [Surrealism Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-surrealism.png) | [Surrealism Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-surrealism-alerts.png)
 * [Feedback Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-feedback.png) | [Feedback Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-feedback-alerts.png)
+### 4. Bugs and Solution
+Playing the video files on mobile device may be problematic, as it does not only depend on the code, but also on the settings and capacities of the device what the user uses.
+Therefore, if the file could not be played on a device/browser, a Youtube link included for all videos, allowing users to watch the video in a different window if interested, without closing the actual site.
+## Deployment
+The site was deployed to GitHub pages.
+1.	GitHub repository => Settings => GitHub Pages
+2.	Source => Selecting Branch + Folder (main/docs)
+3.	With branch/folder selected, the page refreshes to show deployment status
+The live link can be found [here](https://sofiahorvath91.github.io/ucd-project-1/).
+### 1. Forking Repository
+By forking the GitHub Repository, the user can copy the original repository in his/her own GitHub account, allowing the user to view and/or make changes without affecting the original repository.
+1.	Open GitHub => GitHub Repository
+2.	Top of Repository => Fork option
+3.	Copy of the original repository appears in your GitHub account
+### 2. Local Clone
+1.	Open GitHub => GitHub Repository
+2.	Under Repository name => Clone or download option
+3.	Clone Repository using HTTPS => Clone with HTTPS => Copy URL
+4.	Open Git Bash
+5.	Current working directory => Choose location where you want the directory to be cloned
+6.	Type git clone, and then paste the URL copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+7.	Press Enter
+## Credits
