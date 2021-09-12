@@ -204,54 +204,55 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ## Credits
 All content / visual / media material used to build the site is referenced and copyrighted in the footer of the corresponding page.
 ### Content
-Salvador Dalí’s quotes used as page titles and subsection titles / elements: GoodReads
+Salvador Dalí’s quotes used as page titles and subsection titles / elements: [GoodReads](https://www.goodreads.com/author/quotes/165858.Salvador_Dal_)
 * Content Source(s) used for Biography Page :
-  * The Art Story
-  * My English Pages
-  * Wikipedia
+  * [The Art Story](https://www.theartstory.org/artist/dali-salvador/life-and-legacy/)
+  * [My English Pages](https://www.myenglishpages.com/english/reading-salvador-dali-biography.php)
+  * [Wikipedia](https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD)
 * Content Source(s) used for Museums Page:
-  * The Dalí Universe
+  * [The Dalí Universe] (https://www.thedaliuniverse.com/en/dali-museums)
 * Content Source(s) used for Other Works Page:
-  * Film : Wikipedia
-  * Books : Amazon
+  * Film : [Wikipedia](https://en.wikipedia.org/wiki/Un_Chien_Andalou)
+  * Books : [Amazon](https://www.amazon.com)
 * Content Source(s) used for Surrealism Page:
-  * Britannica
-  * Quotes of other artists : GoodReads & AZQuotes
+  * [Britannica](https://www.britannica.com/art/Surrealism)
+  * Quotes of other artists : [GoodReads](https://www.goodreads.com/) & [AZQuotes](https://www.azquotes.com/author/9289-Rene_Magritte)
 ### Media
 Pictures were treated with Photoshop and tinyPNG to have a better size for online presentation.
+* Site Logo made by me by editing following source image : [WikiMedia] (https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
 * Media Source(s) used for Index Page :
-  * Signature of Dalí : WikiMedia
-  * Photos : Philippe Halsman (WikiArt) & Charles Hewitt (Time) & Jean Dieuzaide (The Raw Society)
+  * Signature of Dalí : [WikiMedia] (https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
+  * Photos : [Philippe Halsman (WikiArt)](https://www.wikiart.org/en/philippe-halsman/voluptas-mors-1951) & [Charles Hewitt (Time)](https://time.com/4318151/salvador-dali/) & [Jean Dieuzaide (The Raw Society)](https://www.therawsociety.org/25-years-later-by-xavier-benech/)
 * Media Source(s) used for Biography Page :
-  * Audio file : Mike Wallace (SoundBoard)
-  * Paintings : WikiArt
-  * Photos : Wikipedia & Willy Rizzo (Un Regard Oblique) & Roger Higgins (McMahan Photo) & Manuel Litran (MutualArt)
+  * Audio file : [Mike Wallace (SoundBoard)](https://www.soundboard.com/sb/Salvador_Dali_Interview)
+  * Paintings : [WikiArt](https://www.wikiart.org/en/salvador-dali)
+  * Photos : [Wikipedia](https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD) & [Willy Rizzo (Un Regard Oblique)](https://unregardoblique.com/2021/01/02/dali-thru-magnifiers-1950s/) & [Roger Higgins (McMahan Photo)](https://www.mcmahanphoto.com/zz0030--salvador-dali-with-ocelot-1965-portrait-photo-print.html) & [Manuel Litran (MutualArt)](https://www.mutualart.com/Artwork/Salvador-Dali-en-Espagne/16C2FBED7919FABC)
 * Media Source(s) used for Gallery Page :
-  * Video file : LearnFromMasters (YouTube)
-  * Paintings : WikiArt
+  * Video file : [LearnFromMasters (YouTube)](https://www.youtube.com/watch?v=XycZtblDZgA)
+  * Paintings : [WikiArt](https://www.wikiart.org/en/salvador-dali)
 * Media Source(s) used for Museums Page:
-  * Video file : The Dalí Museums (YouTube)
-  * Photos/Images : Respective museum sites + Wikipedia
+  * Video file : [The Dalí Museums (YouTube)](https://www.youtube.com/watch?v=F1eLeIocAcU&t=16s)
+  * Photos/Images : Respective museum sites + Wikipedia (Flags)
 * Media Source(s) used for Other Works Page:
-  * Video file : Curated Movies & TV Shows (YouTube)
-  * Images : Amazon
+  * Video file : [Curated Movies & TV Shows (YouTube)](https://www.youtube.com/watch?v=cB7gd_t6WMQ)
+  * Images : [Amazon](https://www.amazon.com/)
 * Media Source(s) used for Surrealism Page:
-  * Paintings  : WikiArt
+  * Paintings  : [WikiArt](https://www.wikiart.org/)
 * Media Source(s) used for Feedback Page:
-  * Photo : Philippe Halsman (MutualArt)
+  * Photo : [Philippe Halsman (MutualArt)](https://www.mutualart.com/Artwork/Salvador-Dali-with-Magnifying-Glass/26581EA4C271EF0E)
 * Background images made by me with Photoshop. Background images’ sources: 
-  * Index / Feedback Pages : PNGKey
-  * Biography Page : SVGFiles
-  * Art Gallery Pages (Gallery/Museums/Other Works) : Pinterest
-  * Surrealism Page : Pinterest
+  * Index / Feedback Pages : [SVGFiles](https://www.svgfiles.us/salvador-dali-svg-free-portrait//)
+  * Biography Page : [Pinterest](https://www.pinterest.es/pin/301600506280817112/)
+  * Art Gallery Pages (Gallery/Museums/Other Works) : [PNGKey](https://www.pngkey.com/maxpic/u2q8t4a9i1y3e6e6/)
+  * Surrealism Page : [Pinterest](https://www.pinterest.com/pin/377106168803032761/)
 ### External Codes used as source / inspiration
-* Responsive Menu (Navigation Bar) : Bootstrap
-* Social Media Sharing Buttons (Footer) : SharingButtons
-* Info Cards (Index/Other Works/Surrealism Pages) : W3Schools
-* CSS-Only Collapsible Sections (Biography Page) : CodePen (Mark Caron)
-* CSS-Only Slideshow (Biography Page) : CSS Tricks
-* Responsive Image Grid (Gallery Page) : W3Schools
-* CSS-Only Circle Rotation of Image (Surrealism Page) : Dev.to (Benji Thrope)
+* Responsive Menu (Navigation Bar) : [Bootstrap]()
+* Social Media Sharing Buttons (Footer) : [SharingButtons](https://sharingbuttons.io/)
+* Info Cards (Index/Other Works/Surrealism Pages) : [W3Schools](https://www.w3schools.com/howto/howto_css_team.asp)
+* CSS-Only Collapsible Sections (Biography Page) : [CodePen (Mark Caron)](https://codepen.io/markcaron/pen/RVvmaz)
+* CSS-Only Slideshow (Biography Page) : [CSS Tricks](https://css-tricks.com/css-only-carousel/)
+* Responsive Image Grid (Gallery Page) : [W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+* CSS-Only Circle Rotation of Image (Surrealism Page) : [Dev.to (Benji Thrope)](https://dev.to/benjithorpe/rotate-a-circle-with-css-1dp6)
 ### Acknowledgements
 * To the Code Institute for the great course material
 * To the Stack Overflow & W3Schools as a valuable resource for solving issues.
@@ -259,5 +260,5 @@ Pictures were treated with Photoshop and tinyPNG to have a better size for onlin
 * To Salvador Dalí, for being such an extraordinary person and wonderful artist!
 ### Special Thanks
 * My mentor Rahul Lakhanpal for his time, kind words and support.
-* My previous private mentor Samu Gábor who taught me all I know in the last two years
+* My previous private mentor Samu Gábor Tamás who taught me all I know in the last two years
 * My mother who is always there for me
