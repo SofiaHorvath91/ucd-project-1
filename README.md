@@ -126,10 +126,10 @@ Surrealism Page - Other Painters\
 * __Feedback__
   * This page consists of a responsive form with two fieldsets, allowing users to leave their details (name, email, phone, the level of their knowledge about Dalí), and a rating with comment regarding the site’s quality, content or just to have a question. Only some fields are required for submission, all marked with an asterix, for not discouraging users from leaving a feedback, and if they change their mind, they can clear all fields. 
 
-Feedback Page - Description\
-![Feedback Page](/img/readme/features-surrealism-description.PNG)
-Feedback Page - Other Painters\
-![Feedback Page](/img/readme/features-surrealism-artists.PNG)
+Feedback Page - First Section\
+![Feedback Page](/img/readme/features-feedback-first.PNG)
+Feedback Page - Second Section\
+![Feedback Page](/img/readme/features-feedback-second.PNG)
 
 * __Footer__
   * The footer section includes sources and copyrights for all content used to create the page with external hyperlinks to the sites. This encourages users to dive deeper into the subject through other websites and to get know other great resources and artists.
