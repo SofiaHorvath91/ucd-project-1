@@ -68,14 +68,22 @@ Therefore I chose a basic black and white design with simple blue (#0000ff) and 
 * Navigation Bar
   * Featured on all pages, the navigation bar includes links to all subpages and is identical on each page for smooth navigation. The navbar is fully responsive on all screen sizes: for smaller devices, a hamburger navbar view is included with the help of Bootstrap for better UX and easier navigation.
 
+Navbar on Desktop
 ![Navbar desktop](/img/readme/features-navbar.PNG)
+Navbar on Mobile
+![Navbar mobile](/img/readme/features-navbar-small.PNG)
 
 * Index page
   * Attention-catching site title and visually backed up links to the main site pages (Biography, Art Gallery, and Surrealism) for easier navigation
 
+![Index Page](/img/readme/features-index.PNG)
+
 * Biography page
   * For simple design and easy user navigation, the biography of Dalí is divided into four collapsible sections, summarizing the different chronological periods of his life, with a slideshow gallery of his paintings made in the given period included in each section as visual backup. The sections are titled after a famous painting made during the highlighted period, and these section titles are highlighted upon hovering and opening.
 An audio file can be also played by users to provide further insight into Dalí’s life : a part of a radio interview made with him in 1958 by Mike Wallace, where he talks about genius, personality, the subconscious and dreams. Users can also navigate to the full interview if are interested in it.
+
+![Biography Page](/img/readme/features-biography.PNG)
+![Biography Section](/img/readme/features-biography2.PNG)
 
 * Art Gallery pages
   * The Art Gallery part of the site is consisted of three pages, which can be reached through a drop menu item and which present different sub-categories of Dalí’s artistic heritage. The dropdown option is indicated in the navbar, and the dropdown items are styled to be readable and visible in all cases.
