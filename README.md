@@ -163,3 +163,19 @@ Warnings are coming from dynamic CSS variables and imported style sheets which a
   * [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-others.pdf)
   * [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-surrealism.pdf)
   * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-feedback.pdf)
+### 2. Manual tests
+* Desktop\
+Mozilla Firefox, Google Chrome, Microsoft Edge: pages are working fine and have the corresponding style.
+* Mobile\
+Tested with Samsung A5, iPhone 5, and iPad, and webpage works well, responsive as intended and no style deformations.
+* Mozilla Developer Tools\
+Tested for available devices, webpage works well, responsive as intended and no style deformations.
+### 3. Accessibility tests
+The entire website was verified about accessibility using [Wave](https://wave.webaim.org/). No errors found, alerts related mostly to image titles (which is used to show the painting name and creation date to users).
+* [Index Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-index.png) | [Index Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-index-alerts.png)
+* [Biography Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-biography.png) | [Biography Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-biography-alerts.png)
+* [Gallery Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-gallery.png) | [Gallery Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-gallery-alerts.png)
+* [Museums Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-museums.png) | [Museums Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-museums-alerts.png)
+* [Other Works Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-others.png) | [Other Works Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-others-alerts.png)
+* [Surrealism Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-surrealism.png) | [Surrealism Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-surrealism-alerts.png)
+* [Feedback Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-feedback.png) | [Feedback Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-feedback-alerts.png)
