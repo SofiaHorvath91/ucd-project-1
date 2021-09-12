@@ -144,11 +144,22 @@ Footer\
 ## Code validation
 ### 1. Automated tests
 * HTML\
-Passing the HTML of all pages through the [W3C Validator](https://validator.w3.org/) and no errors/warnings have been found.
-* [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-index.pdf)
-* [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-biography.pdf)
-* [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-gallery.pdf)
-* [Museums Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-museums.pdf)
-* [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-others.pdf)
-* [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-surrealism.pdf)
-* [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-feedback.pdf)
+Passing the HTML of all pages through the [W3C Markup Validator](https://validator.w3.org/) and no errors/warnings have been found.
+  * [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-index.pdf)
+  * [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-biography.pdf)
+  * [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-gallery.pdf)
+  * [Museums Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-museums.pdf)
+  * [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-others.pdf)
+  * [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-surrealism.pdf)
+  * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-feedback.pdf)
+
+* CSS\
+Passing the CSS of all pages through the [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors have been found.
+  * [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-index.pdf)
+  * [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-biography.pdf)
+  * [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-gallery.pdf)
+  * [Museums Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-museums.pdf)
+  * [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-others.pdf)
+  * [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-surrealism.pdf)
+  * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-feedback.pdf)
+\Warnings are coming from dynamic CSS variables and imported style sheets which are out of scope of validator. Also warning appears concerning the CSS of slideshow’s scrollbar, as these elements are out of scope for validator.
