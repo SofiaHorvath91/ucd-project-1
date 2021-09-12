@@ -3,9 +3,11 @@ Tribute to Salvador Dalí's Surreal Dreams
 
 The aim of this site is to present the great artist Salvador Dalí and his works in a simple and interactive way. Users can discover his life and his artworks, learn about surrealism, and they can also access other relevant and interesting materials about Dalí and his art. If you wish to dive into the surreal world, this may be a good place to start and get know the main principles through the great artworks and extraordinary life of Salvador Dalí!
 
-![responsive-design](https://user-images.githubusercontent.com/83947734/132755719-33b0a1df-3216-4b4f-b59c-f311b5ccee44.PNG)
+![Responsive Layouts](/img/readme/responsive-design.PNG)
 
-Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/.
+Deployed site (Github Pages) : https://sofiahorvath91.github.io/ucd-project-1/ \
+Technologies : HTML + CSS\
+Software : [Visual Studio Code](https://code.visualstudio.com/)
 
 ## UX
 ### 1. User stories
@@ -65,42 +67,201 @@ Therefore I chose a basic black and white design with simple blue (#0000ff) and 
   * The main font type was chosen with [Google Fonts](https://fonts.google.com/) and is used across the whole of the website: [Averia Serif Libre](https://fonts.google.com/specimen/Averia+Serif+Libre). This is a well readable yet a bit dream-like font type which suits well to the theme of the site.
 ## Features
 ### 1. Existing Features
-* Navigation Bar
+* __Navigation Bar__
   * Featured on all pages, the navigation bar includes links to all subpages and is identical on each page for smooth navigation. The navbar is fully responsive on all screen sizes: for smaller devices, a hamburger navbar view is included with the help of Bootstrap for better UX and easier navigation.
 
-* Index page
+Navbar on Desktop\
+![Navbar desktop](/img/readme/features-navbar.PNG)
+Navbar on Mobile\
+![Navbar mobile](/img/readme/features-navbar-small.PNG)
+
+* __Index page__
   * Attention-catching site title and visually backed up links to the main site pages (Biography, Art Gallery, and Surrealism) for easier navigation
 
-* Biography page
+Index Page\
+![Index Page](/img/readme/features-index.PNG)
+
+* __Biography page__
   * For simple design and easy user navigation, the biography of Dalí is divided into four collapsible sections, summarizing the different chronological periods of his life, with a slideshow gallery of his paintings made in the given period included in each section as visual backup. The sections are titled after a famous painting made during the highlighted period, and these section titles are highlighted upon hovering and opening.
 An audio file can be also played by users to provide further insight into Dalí’s life : a part of a radio interview made with him in 1958 by Mike Wallace, where he talks about genius, personality, the subconscious and dreams. Users can also navigate to the full interview if are interested in it.
 
-* Art Gallery pages
+Biography Page\
+![Biography Page](/img/readme/features-biography.PNG)
+Biography Collapsible Section\
+![Biography Section](/img/readme/features-biography2.PNG)
+
+* __Art Gallery pages__
   * The Art Gallery part of the site is consisted of three pages, which can be reached through a drop menu item and which present different sub-categories of Dalí’s artistic heritage. The dropdown option is indicated in the navbar, and the dropdown items are styled to be readable and visible in all cases.
 
-* Art Gallery pages : Gallery page
+* __Art Gallery pages : Gallery page__
   * This page features an image gallery of 45 selected works of Dalí. Upon hovering, the users can see the name and creation date of each painting. The gallery is fully responsive on all devices, varying the number of columns to show based on screen size. 
 Users can also watch a video which features 933 of Dalí’s works with musical background on the page or on Youtube, and may also follow a link to Wikiart where they discover all of Dalí’s works.
 
-* Art Gallery pages : Museums page
+Gallery Page\
+![Gallery Page](/img/readme/features-gallery.PNG)
+
+* __Art Gallery pages : Museums page__
   * This page presents the all the museums world-wide which hold a permanent Dalí collection in a styled table. For each museum, an image, a description, a link toward the museum’s site, and the museum’s location included with link to Google Maps. The table design is fully responsive, adapting to the screen size of any device.
 Users can also watch a video of the Dalí Museum (Floride, USA) on the page or on Youtube, and may also follow a link to the Dalí Museum’s Yotube channel to find more similar videos.
 
-* Art Gallery pages : Other Works page
+Museums Page\
+![Museums Page](/img/readme/features-museums.PNG)
+
+* __Art Gallery pages : Other Works page__
   * This page features The Andalusian Dog, the only short film directed by Dalí (together with director Luis Buñuel) and the two biography books written by Dalí himself.
 Users can watch the full short film on the page or on Youtube, and also redirect to Amazon to buy the books online and discover other related literature.
 
-* Surrealism page
+Other Works Page - Films\
+![Other Works Page](/img/readme/features-others-film.PNG)
+Other Works Page - Books\
+![Other Works Page](/img/readme/features-others-books.PNG)
+
+* __Surrealism page__
   * This page allows users to learn more about the surreal art in general and about other famous surrealist painters (Ernst, Magritte, and Picasso) with visual illustrations of their works to awake interest. If interested, users can navigate to their full Wikiart page to discover their life and art.
 As a page main illustration, a dynamically rotating, styled image is used which presents well the essence of surrealism I think.
 
-* Feedback
+Surrealism Page - Description\
+![Surrealism Page](/img/readme/features-surrealism-description.PNG)
+Surrealism Page - Other Painters\
+![Surrealism Page](/img/readme/features-surrealism-artists.PNG)
+
+* __Feedback__
   * This page consists of a responsive form with two fieldsets, allowing users to leave their details (name, email, phone, the level of their knowledge about Dalí), and a rating with comment regarding the site’s quality, content or just to have a question. Only some fields are required for submission, all marked with an asterix, for not discouraging users from leaving a feedback, and if they change their mind, they can clear all fields. 
 
-* Footer
+Feedback Page - First Section\
+![Feedback Page](/img/readme/features-feedback-first.PNG)
+Feedback Page - Second Section\
+![Feedback Page](/img/readme/features-feedback-second.PNG)
+
+* __Footer__
   * The footer section includes sources and copyrights for all content used to create the page with external hyperlinks to the sites. This encourages users to dive deeper into the subject through other websites and to get know other great resources and artists.
 The footer section allows to share this website with other people through social media sites and email via social share buttons. 
+
+Footer\
+![Footer](/img/readme/features-footer.PNG)
+
 ### 2. Future Features
 * Modal boxes for allowing see gallery images in bigger version
 * Another dropdown item in art gallery for sculptures
 ## Code validation
+### 1. Automated tests
+* HTML\
+Passing the HTML of all pages through the [W3C Markup Validator](https://validator.w3.org/) and no errors/warnings have been found.
+  * [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-index.pdf)
+  * [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-biography.pdf)
+  * [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-gallery.pdf)
+  * [Museums Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-museums.pdf)
+  * [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-others.pdf)
+  * [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-surrealism.pdf)
+  * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-html-feedback.pdf)
+
+* CSS\
+Passing the CSS of all pages through the [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) and no errors have been found.\
+Warnings are coming from dynamic CSS variables and imported style sheets which are out of scope of validator. Also warning appears concerning the CSS of slideshow’s scrollbar, as these elements are out of scope for validator.
+  * [Index Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-index.pdf)
+  * [Biography Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-biography.pdf)
+  * [Gallery Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-gallery.pdf)
+  * [Museums Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-museums.pdf)
+  * [Other Works Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-others.pdf)
+  * [Surrealism Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-surrealism.pdf)
+  * [Feedback Page Validation](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/w3validator-css-feedback.pdf)
+### 2. Manual tests
+* Desktop\
+Mozilla Firefox, Google Chrome, Microsoft Edge: pages are working fine and have the corresponding style.
+* Mobile\
+Tested with Samsung A5, iPhone 5, and iPad, and webpage works well, responsive as intended and no style deformations.
+* Mozilla Developer Tools\
+Tested for available devices, webpage works well, responsive as intended and no style deformations.
+### 3. Accessibility tests
+The entire website was verified about accessibility using [Wave](https://wave.webaim.org/). No errors found, alerts related mostly to image titles (which is used to show the painting name and creation date to users).
+* [Index Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-index.png) | [Index Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-index-alerts.png)
+* [Biography Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-biography.png) | [Biography Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-biography-alerts.png)
+* [Gallery Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-gallery.png) | [Gallery Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-gallery-alerts.png)
+* [Museums Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-museums.png) | [Museums Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-museums-alerts.png)
+* [Other Works Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-others.png) | [Other Works Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-others-alerts.png)
+* [Surrealism Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-surrealism.png) | [Surrealism Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-surrealism-alerts.png)
+* [Feedback Page Wave Result](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-feedback.png) | [Feedback Page Wave Alerts](https://github.com/SofiaHorvath91/ucd-project-1/blob/main/img/readme/wave-feedback-alerts.png)
+### 4. Bugs and Solution
+Playing the video files on mobile device may be problematic, as it does not only depend on the code, but also on the settings and capacities of the device what the user uses.
+Therefore, if the file could not be played on a device/browser, a Youtube link included for all videos, allowing users to watch the video in a different window if interested, without closing the actual site.
+## Deployment
+The site was deployed to GitHub pages (find it [here](https://sofiahorvath91.github.io/ucd-project-1/)) after building it with [Visual Studio Code](https://code.visualstudio.com/) and pushing it to GitHub Repository via [GitHub Desktop](https://desktop.github.com/).
+1.	GitHub repository => Settings => GitHub Pages
+2.	Source => Selecting Branch + Folder (main/docs)
+3.	With branch/folder selected, the page refreshes to show deployment status
+### 1. Forking Repository
+By forking the GitHub Repository, the user can copy the original repository in his/her own GitHub account, allowing the user to view and/or make changes without affecting the original repository.
+1.	Open GitHub => GitHub Repository
+2.	Top of Repository => Fork option
+3.	Copy of the original repository appears in your GitHub account
+### 2. Local Clone
+1.	Open GitHub => GitHub Repository
+2.	Under Repository name => Clone or download option
+3.	Clone Repository using HTTPS => Clone with HTTPS => Copy URL
+4.	Open Git Bash
+5.	Current working directory => Choose location where you want the directory to be cloned
+6.	Type git clone, and then paste the URL copied in Step 3.\
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+7.	Press Enter
+## Credits
+All content / visual / media material used to build the site is referenced and copyrighted in the footer of the corresponding page.
+### Content
+Salvador Dalí’s quotes used as page titles and subsection titles / elements: [GoodReads](https://www.goodreads.com/author/quotes/165858.Salvador_Dal_)
+* Content Source(s) used for Biography Page :
+  * [The Art Story](https://www.theartstory.org/artist/dali-salvador/life-and-legacy/)
+  * [My English Pages](https://www.myenglishpages.com/english/reading-salvador-dali-biography.php)
+  * [Wikipedia](https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD)
+* Content Source(s) used for Museums Page:
+  * [The Dalí Universe](https://www.thedaliuniverse.com/en/dali-museums)
+* Content Source(s) used for Other Works Page:
+  * Film : [Wikipedia](https://en.wikipedia.org/wiki/Un_Chien_Andalou)
+  * Books : [Amazon](https://www.amazon.com)
+* Content Source(s) used for Surrealism Page:
+  * [Britannica](https://www.britannica.com/art/Surrealism)
+  * Quotes of other artists : [GoodReads](https://www.goodreads.com/) & [AZQuotes](https://www.azquotes.com/author/9289-Rene_Magritte)
+### Media
+Pictures were treated with [Photoshop](http://www.apsportable.com/photoshop-cs6-portable-download-4/) and [tinyPNG](https://tinypng.com/) to have a better size for online presentation.
+* Site Logo made by me by editing following source image : [WikiMedia](https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
+* Media Source(s) used for Index Page :
+  * Signature of Dalí : [WikiMedia](https://commons.wikimedia.org/wiki/File:Salvador_dali_signature.svg)
+  * Photos : [Philippe Halsman (WikiArt)](https://www.wikiart.org/en/philippe-halsman/voluptas-mors-1951) & [Charles Hewitt (Time)](https://time.com/4318151/salvador-dali/) & [Jean Dieuzaide (The Raw Society)](https://www.therawsociety.org/25-years-later-by-xavier-benech/)
+* Media Source(s) used for Biography Page :
+  * Audio file : [Mike Wallace (SoundBoard)](https://www.soundboard.com/sb/Salvador_Dali_Interview), edited by [AudioTrimmer](https://audiotrimmer.com/)
+  * Paintings : [WikiArt](https://www.wikiart.org/en/salvador-dali)
+  * Photos : [Wikipedia](https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD) & [Willy Rizzo (Un Regard Oblique)](https://unregardoblique.com/2021/01/02/dali-thru-magnifiers-1950s/) & [Roger Higgins (McMahan Photo)](https://www.mcmahanphoto.com/zz0030--salvador-dali-with-ocelot-1965-portrait-photo-print.html) & [Manuel Litran (MutualArt)](https://www.mutualart.com/Artwork/Salvador-Dali-en-Espagne/16C2FBED7919FABC)
+* Media Source(s) used for Gallery Page :
+  * Video file : [LearnFromMasters (YouTube)](https://www.youtube.com/watch?v=XycZtblDZgA)
+  * Paintings : [WikiArt](https://www.wikiart.org/en/salvador-dali)
+* Media Source(s) used for Museums Page:
+  * Video file : [The Dalí Museums (YouTube)](https://www.youtube.com/watch?v=F1eLeIocAcU&t=16s)
+  * Photos/Images : Respective museum sites + Wikipedia (Flags)
+* Media Source(s) used for Other Works Page:
+  * Video file : [Curated Movies & TV Shows (YouTube)](https://www.youtube.com/watch?v=cB7gd_t6WMQ)
+  * Images : [Amazon](https://www.amazon.com/)
+* Media Source(s) used for Surrealism Page:
+  * Paintings  : [WikiArt](https://www.wikiart.org/)
+* Media Source(s) used for Feedback Page:
+  * Photo : [Philippe Halsman (MutualArt)](https://www.mutualart.com/Artwork/Salvador-Dali-with-Magnifying-Glass/26581EA4C271EF0E)
+* Background images made by me with [Photoshop](http://www.apsportable.com/photoshop-cs6-portable-download-4/). Background images’ sources: 
+  * Index / Feedback Pages : [SVGFiles](https://www.svgfiles.us/salvador-dali-svg-free-portrait//)
+  * Biography Page : [Pinterest](https://www.pinterest.es/pin/301600506280817112/)
+  * Art Gallery Pages (Gallery/Museums/Other Works) : [PNGKey](https://www.pngkey.com/maxpic/u2q8t4a9i1y3e6e6/)
+  * Surrealism Page : [Pinterest](https://www.pinterest.com/pin/377106168803032761/)
+* Responsive layout image (top of README) made with [AmIResponsive](http://ami.responsivedesign.is/)
+### External Codes used as source / inspiration
+* Responsive Menu (Navigation Bar) : [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) (also used for general styling like margins, rows)
+* Social Media Sharing Buttons (Footer) : [SharingButtons](https://sharingbuttons.io/)
+* Info Cards (Index/Other Works/Surrealism Pages) : [W3Schools](https://www.w3schools.com/howto/howto_css_team.asp)
+* CSS-Only Collapsible Sections (Biography Page) : [CodePen (Mark Caron)](https://codepen.io/markcaron/pen/RVvmaz)
+* CSS-Only Slideshow (Biography Page) : [CSS Tricks](https://css-tricks.com/css-only-carousel/)
+* Responsive Image Grid (Gallery Page) : [W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+* CSS-Only Circle Rotation of Image (Surrealism Page) : [Dev.to (Benji Thrope)](https://dev.to/benjithorpe/rotate-a-circle-with-css-1dp6)
+### Acknowledgements
+* To the Code Institute for the great course material
+* To the [Stack Overflow](https://stackoverflow.com/) & [W3Schools](https://www.w3schools.com/) as a valuable resource for solving issues.
+* To all the wonderful artists, organizations and programmers who provided great source materials 
+* To Salvador Dalí, for being such an extraordinary person and wonderful artist!
+### Special Thanks
+* My mentor Rahul Lakhanpal for his time, kind words and support.
+* My previous private mentor Samu Gábor Tamás who taught me all I know in the last two years
+* My Mother who is always there for me
